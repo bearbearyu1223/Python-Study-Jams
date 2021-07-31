@@ -8,8 +8,8 @@ LONG_DESCRIPTION = 'My first Python package with a slightly longer description'
 
 # Setting up
 setup(
-    # the name must match the folder name 'verysimplemodule'
-    name="verysimplemodule",
+    # the name must match the folder name 'verysimplemodule_0731_2021'
+    name="verysimplemodule_0731_2021",
     version=VERSION,
     author=AUTHOR,
     author_email=EMAIL,
