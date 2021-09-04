@@ -1,0 +1,3065 @@
+source	target	depth
+natural-language generation	autocompletion	1
+natural-language generation	automated journalism	1
+natural-language generation	automated paraphrasing	1
+natural-language generation	markov text generators	1
+natural-language generation	meaning-text theory	1
+amazon alexa	cortana	1
+amazon alexa	google assistant	1
+amazon alexa	mycroft (software)	1
+amazon alexa	siri	1
+google assistant	amazon alexa	1
+google assistant	bixby (virtual assistant)	1
+google assistant	cortana	1
+google assistant	home automation	1
+google assistant	internet of things	1
+google assistant	mycroft (software)	1
+google assistant	siri	1
+google assistant	smart device	1
+google assistant	speech recognition	1
+google assistant	voice command device	1
+natural-language understanding	computational semantics	1
+natural-language understanding	computational linguistics	1
+natural-language understanding	discourse representation theory	1
+natural-language understanding	deep linguistic processing	1
+natural-language understanding	history of natural language processing	1
+natural-language understanding	information extraction	1
+natural-language understanding	mathematica	1
+natural-language understanding	natural language programming	1
+natural-language understanding	natural language user interface	1
+natural-language understanding	siri (software)	1
+natural-language understanding	wolfram alpha	1
+natural-language understanding	open information extraction	1
+natural-language understanding	part-of-speech tagging	1
+natural-language understanding	speech recognition	1
+siri	amazon alexa	1
+siri	blackberry 10	1
+siri	cortana (software)	1
+siri	celia (virtual assistant)	1
+siri	clova (virtual assistant)	1
+siri	cyc	1
+siri	bixby (virtual assistant)	1
+siri	evi (software)	1
+siri	google assistant	1
+siri	knowledge graph	1
+siri	knowledge navigator	1
+siri	memex	1
+siri	microsoft voice command	1
+siri	mycroft (software)	1
+siri	one voice technologies	1
+siri	prolog	1
+siri	s voice	1
+siri	virtual assistant	1
+siri	viv (software)	1
+siri	windows speech recognition	1
+siri	wolfram alpha	1
+siri	watson (computer)	1
+siri	alice (virtual assistant)	1
+mycroft (software)	amazon alexa	2
+mycroft (software)	cortana	2
+mycroft (software)	google assistant	2
+mycroft (software)	siri	2
+alice (virtual assistant)	amazon alexa	2
+alice (virtual assistant)	bixby (virtual assistant)	2
+alice (virtual assistant)	clova (virtual assistant)	2
+alice (virtual assistant)	cortana (software)	2
+alice (virtual assistant)	evi (software)	2
+alice (virtual assistant)	google assistant	2
+alice (virtual assistant)	haptik	2
+alice (virtual assistant)	siri	2
+alice (virtual assistant)	s voice	2
+alice (virtual assistant)	viv (software)	2
+watson (computer)	artificial intelligence	2
+watson (computer)	blue gene	2
+watson (computer)	commonsense knowledge (artificial intelligence)	2
+watson (computer)	glossary of artificial intelligence	2
+watson (computer)	artificial general intelligence	2
+watson (computer)	tech companies in the new york metropolitan area	2
+watson (computer)	wolfram alpha	2
+wolfram alpha	commonsense knowledge problem	2
+wolfram alpha	artificial general intelligence	2
+wolfram alpha	watson (computer)	2
+tech companies in the new york metropolitan area	wp:seealso	3
+tech companies in the new york metropolitan area	silicon alley	3
+tech companies in the new york metropolitan area	silicon hills	3
+tech companies in the new york metropolitan area	tech valley	3
+commonsense knowledge problem	common sense	3
+commonsense knowledge problem	commonsense reasoning	3
+commonsense knowledge problem	linked data	3
+commonsense knowledge problem	semantic web	3
+commonsense knowledge problem	default logic	3
+commonsense knowledge problem	reason maintenance	3
+commonsense knowledge problem	ontology (information science)	3
+commonsense knowledge problem	artificial general intelligence	3
+artificial general intelligence	artificial brain	3
+artificial general intelligence	ai control problem	3
+artificial general intelligence	automated machine learning	3
+artificial general intelligence	brain initiative	3
+artificial general intelligence	china brain project	3
+artificial general intelligence	future of humanity institute	3
+artificial general intelligence	general game playing	3
+artificial general intelligence	human brain project	3
+artificial general intelligence	intelligence amplification	3
+artificial general intelligence	machine ethics	3
+artificial general intelligence	multi-task learning	3
+artificial general intelligence	superintelligence: paths, dangers, strategies	3
+artificial general intelligence	synthetic intelligence	3
+artificial general intelligence	transfer learning	3
+glossary of artificial intelligence	artificial intelligence	3
+commonsense knowledge (artificial intelligence)	common sense	3
+commonsense knowledge (artificial intelligence)	commonsense reasoning	3
+commonsense knowledge (artificial intelligence)	linked data	3
+commonsense knowledge (artificial intelligence)	semantic web	3
+commonsense knowledge (artificial intelligence)	default logic	3
+commonsense knowledge (artificial intelligence)	reason maintenance	3
+commonsense knowledge (artificial intelligence)	ontology (information science)	3
+commonsense knowledge (artificial intelligence)	artificial general intelligence	3
+blue gene	cnk operating system	3
+blue gene	ink (operating system)	3
+blue gene	deep blue (chess computer)	3
+artificial intelligence	a.i. rising	3
+artificial intelligence	ai control problem	3
+artificial intelligence	artificial intelligence arms race	3
+artificial intelligence	artificial general intelligence	3
+artificial intelligence	behavior selection algorithm	3
+artificial intelligence	business process automation	3
+artificial intelligence	case-based reasoning	3
+artificial intelligence	citizen science	3
+artificial intelligence	emergent algorithm	3
+artificial intelligence	female gendering of ai technologies	3
+artificial intelligence	glossary of artificial intelligence	3
+artificial intelligence	regulation of artificial intelligence	3
+artificial intelligence	robotic process automation	3
+artificial intelligence	synthetic intelligence	3
+artificial intelligence	universal basic income	3
+artificial intelligence	weak ai	3
+s voice	bixby (virtual assistant)	3
+s voice	cortana (software)	3
+s voice	google assistant	3
+s voice	google now	3
+s voice	siri	3
+viv (software)	amazon alexa	3
+viv (software)	bixby (virtual assistant)	3
+viv (software)	cortana (software)	3
+viv (software)	google assistant	3
+viv (software)	mycroft (software)	3
+viv (software)	siri	3
+viv (software)	hound (software)	3
+viv (software)	soundhound	3
+haptik	alisa (virtual assistant)	3
+haptik	amazon alexa	3
+haptik	bixby (virtual assistant)	3
+haptik	blackberry 10	3
+haptik	clova (virtual assistant)	3
+haptik	cortana (software)	3
+haptik	evi (software)	3
+haptik	google assistant	3
+haptik	s voice	3
+haptik	siri	3
+haptik	viv (software)	3
+evi (software)	cortana (software)	3
+evi (software)	cyber chess	3
+evi (software)	cyc	3
+evi (software)	ivona	3
+evi (software)	siri (software)	3
+evi (software)	wolfram alpha	3
+evi (software)	yago (database)	3
+evi (software)	yap (company)	3
+bixby (virtual assistant)	alice (virtual assistant)	3
+bixby (virtual assistant)	amazon alexa	3
+bixby (virtual assistant)	clova (virtual assistant)	3
+bixby (virtual assistant)	cortana (software)	3
+bixby (virtual assistant)	evi (software)	3
+bixby (virtual assistant)	google assistant	3
+bixby (virtual assistant)	haptik	3
+bixby (virtual assistant)	siri	3
+bixby (virtual assistant)	s voice	3
+bixby (virtual assistant)	viv (software)	3
+cortana (software)	microsoft voice command	3
+cortana (software)	windows speech recognition	3
+cortana (software)	microsoft agent	3
+cortana (software)	office assistant	3
+cortana (software)	microsoft bob	3
+cortana	microsoft voice command	3
+cortana	windows speech recognition	3
+cortana	microsoft agent	3
+cortana	office assistant	3
+cortana	microsoft bob	3
+windows speech recognition	microsoft cordless phone system	3
+windows speech recognition	microsoft narrator	3
+windows speech recognition	microsoft voice command	3
+windows speech recognition	technical features new to windows vista	3
+virtual assistant	applications of artificial intelligence	3
+virtual assistant	chatbot	3
+virtual assistant	conversational user interface	3
+virtual assistant	computer facial animation	3
+virtual assistant	expert system	3
+virtual assistant	home network	3
+virtual assistant	intelligent agent	3
+virtual assistant	knowledge navigator	3
+virtual assistant	microsoft office assistant	3
+virtual assistant	natural language processing	3
+virtual assistant	simulated reality	3
+virtual assistant	software agent	3
+virtual assistant	wizard (software)	3
+prolog	comparison of prolog implementations	3
+prolog	logico-linguistic modeling	3
+prolog	answer set programming	3
+prolog	association for logic programming	3
+prolog	gödel (programming language)	3
+prolog	concurrent constraint logic programming	3
+prolog	visual prolog	3
+prolog	data type	3
+prolog	object-oriented programming	3
+prolog	datalog	3
+prolog	turing-complete	3
+prolog	mercury (programming language)	3
+prolog	planner (programming language)	3
+prolog	scientific community metaphor	3
+prolog	agentspeak	3
+prolog	multi-agent system	3
+prolog	erlang (programming language)	3
+prolog	picolisp	3
+microsoft voice command	speech recognition	3
+microsoft voice command	speech synthesis	3
+microsoft voice command	voice control	3
+microsoft voice command	microsoft cortana	3
+knowledge navigator	1984 (advertisement)	3
+knowledge navigator	artificial intelligence	3
+knowledge navigator	clippy	3
+knowledge navigator	dynabook	3
+knowledge navigator	hyperland	3
+knowledge navigator	knowledge visualization	3
+knowledge navigator	memex	3
+knowledge navigator	office of the future	3
+knowledge navigator	starfire video prototype	3
+knowledge navigator	technological singularity	3
+memex	altavista	3
+memex	commonplace book	3
+memex	dublin core	3
+memex	hypomnema	3
+memex	intelligence amplification	3
+memex	metadata (computing)	3
+memex	mundaneum	3
+memex	office of the future	3
+memex	paul otlet	3
+memex	victorian internet	3
+memex	web annotation	3
+memex	world brain	3
+memex	zettelkasten	3
+memex	project xanadu	3
+knowledge graph	dbpedia	3
+knowledge graph	google assistant	3
+knowledge graph	linked data	3
+knowledge graph	semantic integration	3
+knowledge graph	semantic network	3
+knowledge graph	wikidata	3
+cyc	babelnet	3
+cyc	categorical logic	3
+cyc	chinese room	3
+cyc	darpa agent markup language	3
+cyc	dbpedia	3
+cyc	fifth generation computer	3
+cyc	freebase (database)	3
+cyc	large scale concept ontology for multimedia	3
+cyc	mindpixel	3
+cyc	never-ending language learning	3
+cyc	open mind common sense	3
+cyc	semantic web	3
+cyc	suggested upper merged ontology	3
+cyc	shrdlu	3
+cyc	true knowledge	3
+cyc	umbel	3
+cyc	wolfram alpha	3
+cyc	yago (database)	3
+celia (virtual assistant)	amazon alexa	3
+celia (virtual assistant)	cortana	3
+celia (virtual assistant)	siri	3
+celia (virtual assistant)	virtual assistant	3
+celia (virtual assistant)	applications of artificial intelligence	3
+blackberry 10	comparison of mobile operating systems	3
+blackberry 10	mobile computing	3
+technical features new to windows vista	windows server 2008	3
+microsoft cordless phone system	cortana (software)	3
+microsoft cordless phone system	microsoft exchange server	3
+microsoft cordless phone system	microsoft mobile	3
+microsoft cordless phone system	microsoft outlook	3
+microsoft cordless phone system	nokia	3
+microsoft cordless phone system	skype	3
+microsoft cordless phone system	windows phone	3
+microsoft cordless phone system	windows speech recognition	3
+soundhound	shazam (company)	3
+soundhound	query by humming	3
+soundhound	speech recognition	3
+soundhound	voice search	3
+multi-agent system	comparison of agent-based modeling software	3
+multi-agent system	agent-based computational economics	3
+multi-agent system	artificial brain	3
+multi-agent system	artificial intelligence	3
+multi-agent system	artificial life	3
+multi-agent system	artificial life framework	3
+multi-agent system	ai mayor	3
+multi-agent system	black box	3
+multi-agent system	blackboard system	3
+multi-agent system	complex systems	3
+multi-agent system	discrete event simulation	3
+multi-agent system	distributed artificial intelligence	3
+multi-agent system	emergence	3
+multi-agent system	evolutionary computation	3
+multi-agent system	game theory	3
+multi-agent system	human-based genetic algorithm	3
+multi-agent system	knowledge query and manipulation language	3
+multi-agent system	microbial intelligence	3
+multi-agent system	multi-agent planning	3
+multi-agent system	pattern-oriented modeling	3
+multi-agent system	platbox project	3
+multi-agent system	reinforcement learning	3
+multi-agent system	scientific community metaphor	3
+multi-agent system	self-reconfiguring modular robot	3
+multi-agent system	simulated reality	3
+multi-agent system	social simulation	3
+multi-agent system	software agent	3
+multi-agent system	swarm intelligence	3
+multi-agent system	swarm robotics	3
+scientific community metaphor	paraconsistent logics	3
+scientific community metaphor	planner programming language	3
+scientific community metaphor	science studies	3
+scientific community metaphor	the structure of scientific revolutions	3
+erlang (programming language)	elixir (programming language)	3
+erlang (programming language)	luerl	3
+erlang (programming language)	lfe (programming language)	3
+erlang (programming language)	mix (build tool)	3
+erlang (programming language)	phoenix (web framework)	3
+planner (programming language)	logic programming	3
+planner (programming language)	prolog	3
+agentspeak	distributed multi-agent reasoning system	3
+mercury (programming language)	curry (programming language)	3
+mercury (programming language)	alice (programming language)	3
+mercury (programming language)	standard ml	3
+mercury (programming language)	logtalk	3
+mercury (programming language)	oz (programming language)	3
+mercury (programming language)	visual prolog	3
+turing-complete	ai-completeness	3
+turing-complete	algorithmic information theory	3
+turing-complete	chomsky hierarchy	3
+turing-complete	church–turing thesis	3
+turing-complete	computability theory	3
+turing-complete	inner loop	3
+turing-complete	loop (computing)	3
+turing-complete	machine that always halts	3
+turing-complete	rice's theorem	3
+turing-complete	smn theorem	3
+turing-complete	structured program theorem	3
+turing-complete	turing tarpit	3
+datalog	answer set programming	3
+datalog	conjunctive query	3
+datalog	dlv	3
+datalog	flix (programming language)	3
+datalog	semantic web rule language	3
+datalog	tuple-generating dependency	3
+datalog	integrity constraint	3
+datalog	relational database	3
+concurrent constraint logic programming	curry (programming language)	3
+concurrent constraint logic programming	toontalk	3
+concurrent constraint logic programming	janus (concurrent constraint programming language)	3
+concurrent constraint logic programming	alice (programming language)	3
+visual prolog	comparison of prolog implementations	3
+visual prolog	logtalk	3
+visual prolog	mercury (programming language)	3
+data type	c data types	3
+data type	data dictionary	3
+data type	functional programming	3
+data type	kind (type theory)	3
+data type	type theory	3
+data type	type system	3
+data type	type conversion	3
+object-oriented programming	comparison of programming languages (object-oriented programming)	3
+object-oriented programming	comparison of programming paradigms	3
+object-oriented programming	component-based software engineering	3
+object-oriented programming	design by contract	3
+object-oriented programming	object association	3
+object-oriented programming	object database	3
+object-oriented programming	object model reference	3
+object-oriented programming	object modeling language	3
+object-oriented programming	object-oriented analysis and design	3
+object-oriented programming	object-relational impedance mismatch	3
+object-oriented programming	the third manifesto	3
+object-oriented programming	object-relational mapping	3
+object-oriented programming	cades	3
+object-oriented programming	common object request broker architecture	3
+object-oriented programming	distributed component object model	3
+object-oriented programming	distributed data management architecture	3
+object-oriented programming	jeroo	3
+object-oriented programming	idef4	3
+object-oriented programming	interface description language	3
+object-oriented programming	lepus3	3
+object-oriented programming	unified modeling language	3
+logico-linguistic modeling	argument map	3
+logico-linguistic modeling	cognitive map	3
+logico-linguistic modeling	concept map	3
+logico-linguistic modeling	fuzzy cognitive map	3
+logico-linguistic modeling	knowledge representation and reasoning	3
+logico-linguistic modeling	semantic network	3
+answer set programming	default logic	3
+answer set programming	logic programming	3
+answer set programming	non-monotonic logic	3
+answer set programming	prolog	3
+answer set programming	stable model semantics	3
+google now	amazon alexa	3
+google now	cortana (software)	3
+google now	bixby (voice assistant)	3
+google now	google assistant	3
+google now	evi (software)	3
+google now	siri	3
+google now	s voice	3
+google now	viv (software)	3
+wizard (software)	expert system	3
+wizard (software)	virtual assistant	3
+wizard (software)	office assistant	3
+software agent	agent architecture	3
+software agent	chatbot	3
+software agent	hal 9000	3
+simulated reality	artificial life	3
+simulated reality	artificial society	3
+simulated reality	augmented reality	3
+simulated reality	boltzmann brain	3
+simulated reality	computational sociology	3
+simulated reality	consensus reality	3
+simulated reality	demiurge	3
+simulated reality	digital philosophy	3
+simulated reality	digital physics	3
+simulated reality	hyperreality	3
+simulated reality	margolus–levitin theorem	3
+simulated reality	maya (religion)	3
+simulated reality	metaverse	3
+simulated reality	mind uploading	3
+simulated reality	openworm	3
+simulated reality	philosophy of information	3
+simulated reality	simulation hypothesis	3
+simulated reality	social simulation	3
+simulated reality	theory of knowledge	3
+simulated reality	omega point (tipler)	3
+simulated reality	virtual reality simulator	3
+simulated reality	virtual world	3
+simulated reality	nick bostrom	3
+simulated reality	rené descartes	3
+simulated reality	evil demon	3
+simulated reality	george berkeley	3
+simulated reality	subjective idealism	3
+simulated reality	plato	3
+simulated reality	allegory of the cave	3
+simulated reality	zhuang zhou	3
+simulated reality	zhuangzi (book)	3
+natural language processing	1 the road	3
+natural language processing	automated essay scoring	3
+natural language processing	biomedical text mining	3
+natural language processing	compound term processing	3
+natural language processing	computational linguistics	3
+natural language processing	computer-assisted reviewing	3
+natural language processing	controlled natural language	3
+natural language processing	deep learning	3
+natural language processing	deep linguistic processing	3
+natural language processing	distributional semantics	3
+natural language processing	foreign language reading aid	3
+natural language processing	foreign language writing aid	3
+natural language processing	information extraction	3
+natural language processing	information retrieval	3
+natural language processing	language and communication technologies	3
+natural language processing	language technology	3
+natural language processing	latent semantic indexing	3
+natural language processing	native-language identification	3
+natural language processing	natural language programming	3
+natural language processing	natural language user interface	3
+natural language processing	query expansion	3
+natural language processing	query understanding	3
+natural language processing	reification (linguistics)	3
+natural language processing	speech processing	3
+natural language processing	spoken dialogue systems	3
+natural language processing	text-proofing	3
+natural language processing	text simplification	3
+natural language processing	transformer (machine learning model)	3
+natural language processing	truecasing	3
+natural language processing	question answering	3
+natural language processing	word2vec	3
+microsoft office assistant	microsoft bob	3
+microsoft office assistant	ms. dewey	3
+microsoft office assistant	tafiti	3
+microsoft office assistant	tay (bot)	3
+microsoft office assistant	talking moose	3
+microsoft office assistant	virtual assistant	3
+intelligent agent	software agent	3
+intelligent agent	cognitive architecture	3
+intelligent agent	cognitive radio	3
+intelligent agent	cybernetics	3
+intelligent agent	computer science	3
+intelligent agent	embodied agent	3
+intelligent agent	federated search	3
+intelligent agent	fuzzy agent	3
+intelligent agent	fuzzy logic	3
+intelligent agent	goal agent programming language	3
+intelligent agent	intelligence	3
+intelligent agent	artificial intelligence	3
+intelligent agent	jack intelligent agents	3
+intelligent agent	multi-agent system	3
+intelligent agent	multiple-agent system	3
+intelligent agent	peas	3
+intelligent agent	reinforcement learning	3
+intelligent agent	semantic web	3
+intelligent agent	simulated reality	3
+intelligent agent	social simulation	3
+intelligent agent	era of intelligent agents	3
+home network	access control	3
+home network	computer security software	3
+home network	data backup	3
+home network	encryption	3
+home network	firewall (computing)	3
+home network	home automation	3
+home network	home server	3
+home network	indoor positioning system	3
+home network	logout	3
+home network	network security	3
+home network	passphrase	3
+home network	smart, connected products	3
+home network	software update	3
+home network	threat (computer)	3
+home network	two factor authentication	3
+home network	virtual assistant	3
+expert system	ai winter	3
+expert system	clips	3
+expert system	constraint logic programming	3
+expert system	constraint satisfaction	3
+expert system	knowledge engineering	3
+expert system	learning classifier system	3
+expert system	rule-based machine learning	3
+computer facial animation	animation	3
+computer facial animation	caricature	3
+computer facial animation	computer animation	3
+computer facial animation	computer graphics	3
+computer facial animation	facial expression	3
+computer facial animation	interactive online characters	3
+computer facial animation	morphing	3
+computer facial animation	parametric surface	3
+computer facial animation	texture mapping	3
+conversational user interface	user interface	3
+conversational user interface	user interface design	3
+conversational user interface	natural-language user interface	3
+conversational user interface	voice user interface	3
+chatbot	applications of artificial intelligence	3
+chatbot	eugene goostman	3
+chatbot	interactive online characters	3
+chatbot	internet bot	3
+chatbot	social bot	3
+chatbot	software bot	3
+chatbot	twitterbot	3
+chatbot	virtual assistant	3
+applications of artificial intelligence	applications of artificial intelligence to legal informatics	3
+applications of artificial intelligence	applications of deep learning	3
+applications of artificial intelligence	applications of machine learning	3
+applications of artificial intelligence	progress in artificial intelligence	3
+speech synthesis	chinese speech synthesis	3
+speech synthesis	comparison of screen readers	3
+speech synthesis	comparison of speech synthesizers	3
+speech synthesis	euphonia (device)	3
+speech synthesis	orca (assistive technology)	3
+speech synthesis	paperless office	3
+speech synthesis	speech processing	3
+speech synthesis	speech-generating device	3
+speech synthesis	silent speech interface	3
+speech synthesis	text to speech in digital television	3
+voice control	speech recognition	3
+voice control	speech synthesis	3
+voice control	natural language user interface	3
+voice control	user interface engineering	3
+voice control	voice browser	3
+voice control	voice command	3
+voice control	speech recognition in linux	3
+voice control	linguatronic	3
+voice control	home automation	3
+voice control	voice computing	3
+microsoft cortana	microsoft voice command	3
+microsoft cortana	windows speech recognition	3
+microsoft cortana	microsoft agent	3
+microsoft cortana	office assistant	3
+microsoft cortana	microsoft bob	3
+speech recognition	ai effect	3
+speech recognition	alpac	3
+speech recognition	applications of artificial intelligence	3
+speech recognition	articulatory speech recognition	3
+speech recognition	audio mining	3
+speech recognition	audio-visual speech recognition	3
+speech recognition	automatic language translator	3
+speech recognition	automotive head unit	3
+speech recognition	cache language model	3
+speech recognition	dragon naturallyspeaking	3
+speech recognition	fluency voice technology	3
+speech recognition	google voice search	3
+speech recognition	ibm viavoice	3
+speech recognition	keyword spotting	3
+speech recognition	kinect	3
+speech recognition	mondegreen	3
+speech recognition	multimedia information retrieval	3
+speech recognition	origin of speech	3
+speech recognition	phonetic search technology	3
+speech recognition	speaker diarisation	3
+speech recognition	speaker recognition	3
+speech recognition	speech analytics	3
+speech recognition	speech interface guideline	3
+speech recognition	speech recognition software for linux	3
+speech recognition	speech synthesis	3
+speech recognition	speech verification	3
+speech recognition	subtitle (captioning)	3
+speech recognition	voicexml	3
+speech recognition	voxforge	3
+speech recognition	windows speech recognition	3
+speech recognition	timeline of speech and voice recognition	3
+knowledge visualization	graphical perception	3
+knowledge visualization	spatial visualization ability	3
+office of the future	intelligence amplification	3
+office of the future	memex	3
+office of the future	mobile office	3
+office of the future	paperless office	3
+office of the future	home of the future	3
+clippy	microsoft bob	3
+clippy	ms. dewey	3
+clippy	tafiti	3
+clippy	tay (bot)	3
+clippy	talking moose	3
+clippy	virtual assistant	3
+1984 (advertisement)	think different	3
+1984 (advertisement)	get a mac	3
+project xanadu	enfilade (xanadu)	3
+project xanadu	hypermedia	3
+project xanadu	enquire	3
+project xanadu	interpedia	3
+project xanadu	american information exchange	3
+project xanadu	tent (protocol)	3
+project xanadu	microcosm (hypermedia system)	3
+project xanadu	ibm notes	3
+project xanadu	plato (computer system)	3
+project xanadu	wiki	3
+project xanadu	memex	3
+project xanadu	ipfs	3
+zettelkasten	argument map	3
+zettelkasten	commonplace book	3
+zettelkasten	hypertext	3
+zettelkasten	issue-based information system	3
+zettelkasten	memex	3
+zettelkasten	notetaking	3
+zettelkasten	comparison of notetaking software	3
+zettelkasten	outliner	3
+zettelkasten	personal knowledge base	3
+zettelkasten	personal knowledge management	3
+zettelkasten	personal wiki	3
+zettelkasten	reference management software	3
+world brain	collective intelligence	3
+world brain	joël de rosnay	3
+world brain	noosphere	3
+world brain	organizational learning	3
+world brain	citizendium	3
+world brain	the forbin project	3
+world brain	the library of babel	3
+world brain	encyclopedia galactica	3
+web annotation	comparison of notetaking software	3
+web annotation	social bookmarking	3
+web annotation	reference management software	3
+web annotation	backlinks	3
+web annotation	online deliberation	3
+web annotation	folksonomy	3
+web annotation	metadata	3
+web annotation	threaded discussion	3
+web annotation	virtual graffiti	3
+web annotation	comparison of software saving web pages for offline use	3
+paul otlet	ada lovelace	3
+paul otlet	andries van dam	3
+paul otlet	conrad gessner	3
+paul otlet	douglas engelbart	3
+paul otlet	george dyson (science historian)	3
+paul otlet	henri la fontaine	3
+paul otlet	herbert haviland field	3
+paul otlet	j.c.r. licklider	3
+paul otlet	ted nelson	3
+paul otlet	tim berners-lee	3
+paul otlet	vannevar bush	3
+paul otlet	w. boyd rayward	3
+paul otlet	as we may think	3
+paul otlet	external memory (psychology)	3
+paul otlet	global brain	3
+paul otlet	hypermedia	3
+paul otlet	hypertext	3
+paul otlet	intelligence amplification	3
+paul otlet	memex	3
+paul otlet	project xanadu	3
+paul otlet	victorian internet	3
+paul otlet	world brain	3
+paul otlet	world wide web	3
+paul otlet	bibliography	3
+paul otlet	documentation science	3
+paul otlet	information science	3
+paul otlet	knowledge organization	3
+paul otlet	library and information science	3
+mundaneum	as we may think	3
+mundaneum	history of libraries	3
+mundaneum	information science	3
+mundaneum	oclc	3
+mundaneum	project xanadu	3
+mundaneum	worldcat	3
+mundaneum	paul otlet	3
+mundaneum	vannevar bush	3
+mundaneum	fred kilgour	3
+mundaneum	j.c.r. licklider	3
+mundaneum	douglas engelbart	3
+mundaneum	ted nelson	3
+mundaneum	andries van dam	3
+mundaneum	tim berners-lee	3
+mundaneum	external memory (psychology)	3
+mundaneum	hypermedia	3
+mundaneum	hypertext	3
+mundaneum	intelligence amplification	3
+mundaneum	office of the future	3
+mundaneum	victorian internet	3
+mundaneum	world wide web	3
+intelligence amplification	advanced chess	3
+intelligence amplification	augmented learning	3
+intelligence amplification	brain–computer interface	3
+intelligence amplification	charles sanders peirce	3
+intelligence amplification	collective intelligence	3
+intelligence amplification	democratic transhumanism	3
+intelligence amplification	emotiv systems	3
+intelligence amplification	extelligence	3
+intelligence amplification	exocortex	3
+intelligence amplification	knowledge worker	3
+intelligence amplification	mechanization	3
+intelligence amplification	neuroenhancement	3
+intelligence amplification	noogenesis	3
+intelligence amplification	sensemaking (information science)	3
+intelligence amplification	the wisdom of crowds	3
+metadata (computing)	agris: international information system for the agricultural sciences and technology	3
+metadata (computing)	classification scheme	3
+metadata (computing)	crosswalk (metadata)	3
+metadata (computing)	dataone	3
+metadata (computing)	data dictionary	3
+metadata (computing)	dublin core	3
+metadata (computing)	folksonomy	3
+metadata (computing)	geoms – generic earth observation metadata standard	3
+metadata (computing)	geospatial metadata	3
+metadata (computing)	ipdirector	3
+metadata (computing)	iso/iec 11179	3
+metadata (computing)	knowledge tag	3
+metadata (computing)	the medium is the message	3
+metadata (computing)	mercury: metadata search system	3
+metadata (computing)	meta element	3
+metadata (computing)	if-map	3
+metadata (computing)	metadata discovery	3
+metadata (computing)	metadata facility for java	3
+metadata (computing)	v:4-b: metadata	3
+metadata (computing)	metadata publishing	3
+metadata (computing)	metadata registry	3
+metadata (computing)	metamathematics	3
+metadata (computing)	metafor	3
+metadata (computing)	microcontent	3
+metadata (computing)	microformat	3
+metadata (computing)	multicam (lsm)	3
+metadata (computing)	observations and measurements	3
+metadata (computing)	ontology (computer science)	3
+metadata (computing)	official statistics	3
+metadata (computing)	paratext	3
+metadata (computing)	preservation metadata	3
+metadata (computing)	sdmx	3
+metadata (computing)	semantic web	3
+metadata (computing)	sgml	3
+metadata (computing)	the metadata company	3
+metadata (computing)	universal data element framework	3
+metadata (computing)	vocabulary onesource	3
+metadata (computing)	xsd	3
+hypomnema	commonplace book	3
+hypomnema	commentarii	3
+hypomnema	memex	3
+hypomnema	mnemonic	3
+hypomnema	silva rerum	3
+dublin core	metadata registry	3
+dublin core	metadata object description schema	3
+dublin core	ontology (information science)	3
+dublin core	open archives initiative	3
+dublin core	controlled vocabulary	3
+dublin core	interoperability	3
+dublin core	asset description metadata schema	3
+dublin core	world wide web consortium	3
+dublin core	joinup collaboration platform	3
+dublin core	metadata encoding and transmission standard	3
+dublin core	library of congress	3
+dublin core	digital library federation	3
+dublin core	preservation metadata: implementation strategies	3
+dublin core	darwin core	3
+dublin core	fedora commons	3
+dublin core	digital asset management	3
+dublin core	oai-pmh	3
+dublin core	omeka	3
+dublin core	content management system	3
+commonplace book	anthology	3
+commonplace book	attic nights	3
+commonplace book	biji (chinese literature)	3
+commonplace book	book of shadows	3
+commonplace book	bullet journal	3
+commonplace book	commentarii	3
+commonplace book	family cookbooks	3
+commonplace book	florilegium	3
+commonplace book	hypomnema	3
+commonplace book	memex	3
+commonplace book	miscellany	3
+commonplace book	notebook (style)	3
+commonplace book	notetaking	3
+commonplace book	comparison of notetaking software	3
+commonplace book	personal knowledge base	3
+commonplace book	personal knowledge management	3
+commonplace book	personal wiki	3
+commonplace book	the pillow book	3
+commonplace book	reference management software	3
+commonplace book	sammelband	3
+commonplace book	scrapbooking	3
+commonplace book	silva rerum	3
+commonplace book	w:de:sudelbücher	3
+commonplace book	swipe file	3
+commonplace book	table-book	3
+commonplace book	thesaurus	3
+commonplace book	vade mecum	3
+commonplace book	handbook	3
+commonplace book	waste book	3
+commonplace book	zettelkasten	3
+wikidata	wp:seealso	3
+wikidata	abstract wikipedia	3
+wikidata	babelnet	3
+wikidata	dbpedia	3
+wikidata	freebase (database)	3
+wikidata	semantic mediawiki	3
+semantic network	abstract semantic graph	3
+semantic network	chunking (psychology)	3
+semantic network	cmaptools	3
+semantic network	concept map	3
+semantic network	network diagram	3
+semantic network	ontology (information science)	3
+semantic network	repertory grid	3
+semantic network	semantic lexicon	3
+semantic network	semantic similarity network	3
+semantic network	semantic neural network	3
+semantic network	semeval	3
+semantic network	semantic analysis (computational)	3
+semantic network	sparse distributed memory	3
+semantic network	taxonomy (general)	3
+semantic network	unified medical language system	3
+semantic network	resource description framework	3
+semantic network	cognition network technology	3
+semantic network	lexipedia	3
+semantic network	opencog	3
+semantic network	open mind common sense	3
+semantic network	schema.org	3
+semantic network	snomed ct	3
+semantic network	universal networking language	3
+semantic network	wikidata	3
+semantic network	freebase (database)	3
+knowledge graph	ontology (information science)	3
+knowledge graph	semantic technology	3
+knowledge graph	yago (database)	3
+knowledge graph	knowledge graph embedding	3
+semantic integration	data integration	3
+semantic integration	dataspaces	3
+semantic integration	enterprise integration	3
+semantic integration	ontology-based data integration	3
+semantic integration	ontology alignment	3
+semantic integration	ontology engineering	3
+semantic integration	ontology matching	3
+semantic integration	semantic heterogeneity	3
+semantic integration	semantic technology	3
+semantic integration	semantic translation	3
+semantic integration	semantic unification	3
+linked data	american art collaborative	3
+linked data	authority control	3
+linked data	citation analysis	3
+linked data	hyperdata	3
+linked data	network model	3
+linked data	schema.org	3
+linked data	void	3
+linked data	web ontology language	3
+dbpedia	babelnet	3
+dbpedia	semantic mediawiki	3
+dbpedia	wikidata	3
+smart device	computer appliance	3
+smart device	home automation	3
+smart device	information appliance	3
+smart device	internet of things	3
+smart device	mobile device	3
+smart device	mobile phone	3
+smart device	sensor node	3
+smart device	smart environment	3
+smart device	smart, connected products	3
+smart device	smartphone	3
+smart device	telerobotics	3
+smart device	ubiquitous computing	3
+smart device	web of things	3
+voice command device	speech recognition	3
+voice command device	speech synthesis	3
+voice command device	natural language user interface	3
+voice command device	user interface engineering	3
+voice command device	voice browser	3
+voice command device	voice command	3
+voice command device	speech recognition in linux	3
+voice command device	linguatronic	3
+voice command device	home automation	3
+voice command device	voice computing	3
+home automation	home automation for the elderly and disabled	3
+home automation	home network	3
+home automation	home robot	3
+home automation	indoor positioning	3
+home automation	internet of things	3
+home automation	mobile manipulator	3
+home automation	mobile robot	3
+home automation	smart device	3
+home automation	smart speaker	3
+home automation	web of things	3
+internet of things	5g	3
+internet of things	artificial intelligence of things	3
+internet of things	automotive security	3
+internet of things	big data	3
+internet of things	cloud manufacturing	3
+internet of things	cyber-physical system	3
+internet of things	data distribution service	3
+internet of things	digital object memory	3
+internet of things	digital twin	3
+internet of things	edge computing	3
+internet of things	four-dimensional product	3
+internet of things	home automation	3
+internet of things	indoor positioning system	3
+internet of things	industry 4.0	3
+internet of things	internet of military things	3
+internet of things	iot cloud	3
+internet of things	network simulation	3
+internet of things	open interconnect consortium	3
+internet of things	openwsn	3
+internet of things	quantified self	3
+internet of things	responsive computer-aided design	3
+internet of things	smart grid	3
+internet of things	web of things	3
+yap (company)	evi (software)	3
+yap (company)	google voice	3
+yap (company)	ivona	3
+yap (company)	nuance communications	3
+yap (company)	siri	3
+yap (company)	spinvox	3
+yap (company)	tellme networks	3
+yap (company)	vlingo	3
+yap (company)	yext	3
+yago (database)	commonsense knowledge bases	3
+yago (database)	cyc	3
+yago (database)	evi (software)	3
+yago (database)	wikidata	3
+yago (database)	dbpedia	3
+siri (software)	amazon alexa	3
+siri (software)	blackberry 10	3
+siri (software)	cortana (software)	3
+siri (software)	celia (virtual assistant)	3
+siri (software)	clova (virtual assistant)	3
+siri (software)	cyc	3
+siri (software)	bixby (virtual assistant)	3
+siri (software)	evi (software)	3
+siri (software)	google assistant	3
+siri (software)	knowledge graph	3
+siri (software)	knowledge navigator	3
+siri (software)	memex	3
+siri (software)	microsoft voice command	3
+siri (software)	mycroft (software)	3
+siri (software)	one voice technologies	3
+siri (software)	prolog	3
+siri (software)	s voice	3
+siri (software)	virtual assistant	3
+siri (software)	viv (software)	3
+siri (software)	windows speech recognition	3
+siri (software)	wolfram alpha	3
+siri (software)	watson (computer)	3
+siri (software)	alice (virtual assistant)	3
+ivona	google home	3
+ivona	homepod	3
+ivona	invoke (smart speaker)	3
+microsoft agent	embodied agent	3
+microsoft agent	bonzibuddy	3
+microsoft agent	office assistant	3
+microsoft agent	microsoft voice command	3
+microsoft agent	cortana	3
+microsoft agent	microsoft bob	3
+microsoft bob	orphaned technology	3
+microsoft bob	packard bell navigator	3
+microsoft bob	eworld	3
+microsoft bob	office assistant	3
+microsoft bob	microsoft agent	3
+microsoft bob	cortana	3
+office assistant	microsoft bob	3
+office assistant	ms. dewey	3
+office assistant	tafiti	3
+office assistant	tay (bot)	3
+office assistant	talking moose	3
+office assistant	virtual assistant	3
+mobile computing	lists of mobile computers	3
+mobile computing	enterprise digital assistant	3
+mobile computing	location-based service	3
+mobile computing	mobile cloud computing	3
+mobile computing	mobile computing and communications review	3
+mobile computing	mobile development	3
+mobile computing	mobile device management	3
+mobile computing	mobile identity management	3
+mobile computing	mobile interaction	3
+mobile computing	mobile software	3
+mobile computing	mobileer	3
+mobile computing	mobile rig	3
+mobile computing	smart device	3
+mobile computing	ubiquitous computing	3
+true knowledge	cortana (software)	3
+true knowledge	cyber chess	3
+true knowledge	cyc	3
+true knowledge	ivona	3
+true knowledge	siri (software)	3
+true knowledge	wolfram alpha	3
+true knowledge	yago (database)	3
+true knowledge	yap (company)	3
+umbel	cyc	3
+umbel	dbpedia	3
+shrdlu	planner programming language	3
+suggested upper merged ontology	semantic translation	3
+semantic web	agris	3
+semantic web	business semantics management	3
+semantic web	computational semantics	3
+semantic web	calais (reuters product)	3
+semantic web	dbpedia	3
+semantic web	entity–attribute–value model	3
+semantic web	hyperdata	3
+semantic web	internet of things	3
+semantic web	linked data	3
+semantic web	nextbio	3
+semantic web	ontology alignment	3
+semantic web	ontology learning	3
+semantic web	resource description framework	3
+semantic web	web ontology language	3
+semantic web	semantic computing	3
+semantic web	semantic geospatial web	3
+semantic web	semantic heterogeneity	3
+semantic web	semantic integration	3
+semantic web	semantic matching	3
+semantic web	semantic mediawiki	3
+semantic web	semantic sensor web	3
+semantic web	semantic social network	3
+semantic web	semantic technology	3
+semantic web	semantic web (journal)	3
+semantic web	semantically-interlinked online communities	3
+semantic web	smart-m3	3
+semantic web	social semantic web	3
+semantic web	web engineering	3
+semantic web	web resource	3
+semantic web	web science	3
+mindpixel	never-ending language learning	3
+mindpixel	cyc	3
+open mind common sense	attempto controlled english	3
+open mind common sense	never-ending language learning	3
+open mind common sense	mindpixel	3
+open mind common sense	thoughttreasure	3
+open mind common sense	semantic web	3
+open mind common sense	dbpedia	3
+open mind common sense	freebase (database)	3
+open mind common sense	yago (database)	3
+never-ending language learning	cognitive architecture	3
+never-ending language learning	computational models of language acquisition	3
+never-ending language learning	cyc	3
+never-ending language learning	darwin among the machines	3
+never-ending language learning	the adolescence of p-1	3
+never-ending language learning	never-ending image learner	3
+large scale concept ontology for multimedia	multimedia web ontology language	3
+large scale concept ontology for multimedia	mowl	3
+freebase (database)	babelnet	3
+freebase (database)	cyc	3
+freebase (database)	dbpedia	3
+freebase (database)	entity–relationship model	3
+freebase (database)	true knowledge	3
+freebase (database)	yago (database)	3
+freebase (database)	knowledge vault	3
+freebase (database)	wikidata	3
+darpa agent markup language	artificial intelligence	3
+darpa agent markup language	case-based reasoning	3
+darpa agent markup language	expert system	3
+darpa agent markup language	aerotext	3
+categorical logic	history of topos theory	3
+chinese room	computational models of language acquisition	3
+chinese room	emergent behavior	3
+chinese room	no true scotsman	3
+chinese room	philosophical zombie	3
+chinese room	sorites paradox	3
+chinese room	synthetic intelligence	3
+chinese room	i am a strange loop	3
+babelnet	babelfy	3
+babelnet	eurowordnet	3
+babelnet	knowledge acquisition	3
+babelnet	linguistic linked open data	3
+babelnet	semantic network	3
+babelnet	semantic relatedness	3
+babelnet	wikidata	3
+babelnet	wiktionary	3
+babelnet	word sense induction	3
+babelnet	uby	3
+subtitle (captioning)	airscript	3
+subtitle (captioning)	camtasia	3
+subtitle (captioning)	comparison of subtitle editors	3
+subtitle (captioning)	comparison of video player software	3
+subtitle (captioning)	dubbing (filmmaking)	3
+subtitle (captioning)	interactive transcripts	3
+subtitle (captioning)	intertitle	3
+subtitle (captioning)	karaoke	3
+subtitle (captioning)	kameraflage	3
+subtitle (captioning)	subtitle editor	3
+subtitle (captioning)	surtitles	3
+subtitle (captioning)	same language subtitling	3
+subtitle (captioning)	synchronized multimedia integration language	3
+subtitle (captioning)	telop	3
+subtitle (captioning)	time shifting	3
+subtitle (captioning)	transcription (linguistics)	3
+subtitle (captioning)	wysiwyg	3
+timeline of speech and voice recognition	speech recognition	3
+voicexml	ecmascript	3
+voicexml	openvxi	3
+voicexml	scxml	3
+voxforge	speech recognition in linux	3
+speech recognition software for linux	speech interface guideline	3
+speech analytics	customer intelligence	3
+speech analytics	customer dynamics	3
+speech analytics	speech recognition	3
+speech interface guideline	human-computer interaction	3
+speech interface guideline	human interface guidelines	3
+speech interface guideline	speech processing	3
+speech interface guideline	speech recognition	3
+speech interface guideline	speech technology	3
+speaker recognition	ai effect	3
+speaker recognition	applications of artificial intelligence	3
+speaker recognition	speaker diarisation	3
+speaker recognition	speech recognition	3
+speaker recognition	voice changer	3
+origin of speech	animal communication	3
+origin of speech	deception in animals	3
+origin of speech	evolutionary anthropology	3
+origin of speech	evolutionary linguistics	3
+origin of speech	essay on the origin of languages	3
+origin of speech	human evolution	3
+origin of speech	language acquisition	3
+origin of speech	linguistic anthropology	3
+origin of speech	linguistic universals	3
+origin of speech	neurobiological origins of language	3
+origin of speech	origins of society	3
+origin of speech	origin of language	3
+origin of speech	physical anthropology	3
+origin of speech	proto-language	3
+origin of speech	proto-human language	3
+origin of speech	recent african origin of modern humans	3
+origin of speech	signalling theory	3
+origin of speech	sociocultural evolution	3
+origin of speech	symbolic culture	3
+origin of speech	universal grammar	3
+mondegreen	am i right	3
+mondegreen	ambiguity	3
+mondegreen	bushism	3
+mondegreen	folk etymology	3
+mondegreen	mad gab	3
+mondegreen	mcgurk effect	3
+mondegreen	mind rhyme	3
+mondegreen	pareidolia	3
+mondegreen	parody music	3
+mondegreen	yanny or laurel	3
+kinect	dreameye	3
+kinect	eyetoy	3
+kinect	xbox live vision	3
+google voice search	microsoft cortana	3
+google voice search	siri	3
+cache language model	artificial intelligence	3
+cache language model	history of natural language processing	3
+cache language model	history of machine translation	3
+cache language model	speech recognition	3
+cache language model	statistical machine translation	3
+automotive head unit	aftermarket (automotive)	3
+automotive head unit	android auto	3
+automotive head unit	carplay	3
+automotive head unit	connectors for car audio	3
+automotive head unit	vehicle audio	3
+audio mining	speech analytics	3
+audio mining	music information retrieval	3
+audio mining	statistical machine translation	3
+articulatory speech recognition	speech recognition	3
+articulatory speech recognition	articulatory synthesis	3
+articulatory speech recognition	automated lip reading	3
+articulatory speech recognition	computational linguistics	3
+alpac	georgetown-ibm experiment	3
+alpac	an/gsq-16	3
+alpac	history of artificial intelligence	3
+alpac	history of machine translation	3
+alpac	ai winter	3
+alpac	lighthill report	3
+ai effect	chinese room	3
+ai effect	eliza effect	3
+ai effect	functionalism (philosophy of mind)	3
+ai effect	god of the gaps	3
+ai effect	history of artificial intelligence	3
+ai effect	moravec's paradox	3
+ai effect	moving the goalposts	3
+part-of-speech tagging	semantic net	2
+part-of-speech tagging	sliding window based part-of-speech tagging	2
+part-of-speech tagging	trigram tagger	2
+natural language user interface	conversational user interface	2
+natural language user interface	natural user interface	2
+natural language user interface	natural-language programming	2
+natural language user interface	voice user interface	2
+natural language user interface	chatbot	2
+natural language user interface	noisy text	2
+natural language user interface	question answering	2
+natural language user interface	selection-based search	2
+natural language user interface	semantic search	2
+natural language user interface	semantic query	2
+natural language user interface	semantic web	2
+semantic net	abstract semantic graph	3
+semantic net	chunking (psychology)	3
+semantic net	cmaptools	3
+semantic net	concept map	3
+semantic net	network diagram	3
+semantic net	ontology (information science)	3
+semantic net	repertory grid	3
+semantic net	semantic lexicon	3
+semantic net	semantic similarity network	3
+semantic net	semantic neural network	3
+semantic net	semeval	3
+semantic net	semantic analysis (computational)	3
+semantic net	sparse distributed memory	3
+semantic net	taxonomy (general)	3
+semantic net	unified medical language system	3
+semantic net	resource description framework	3
+semantic net	cognition network technology	3
+semantic net	lexipedia	3
+semantic net	opencog	3
+semantic net	open mind common sense	3
+semantic net	schema.org	3
+semantic net	snomed ct	3
+semantic net	universal networking language	3
+semantic net	wikidata	3
+semantic net	freebase (database)	3
+semantic query	attention	3
+semantic query	dataspaces	3
+semantic query	knowledge representation	3
+semantic query	linked data	3
+semantic query	ontology alignment	3
+semantic query	philosophy	3
+semantic query	semantic integration	3
+semantic query	semantic publishing	3
+semantic query	semantics of business vocabulary and business rules	3
+semantic query	sparql	3
+semantic search	semantic web	3
+semantic search	semantic unification	3
+semantic search	resource description framework	3
+semantic search	natural language search engine	3
+semantic search	semantic query	3
+selection-based search	accelerator (internet explorer)	3
+selection-based search	smart tags (microsoft)	3
+selection-based search	yahoo search	3
+selection-based search	spotlight (software)	3
+noisy text	data corruption	3
+noisy text	jargon	3
+noisy text	leet speak	3
+noisy text	natural language understanding	3
+noisy text	noisy channel	3
+voice user interface	speech recognition	3
+voice user interface	speech synthesis	3
+voice user interface	natural language user interface	3
+voice user interface	user interface engineering	3
+voice user interface	voice browser	3
+voice user interface	voice command	3
+voice user interface	speech recognition in linux	3
+voice user interface	linguatronic	3
+voice user interface	home automation	3
+voice user interface	voice computing	3
+natural-language programming	controlled natural language	3
+natural-language programming	context-free language	3
+natural-language programming	domain-specific language	3
+natural-language programming	end-user programming	3
+natural-language programming	knowledge representation	3
+natural-language programming	natural-language processing	3
+natural-language programming	automatic programming	3
+natural-language programming	very high-level programming language	3
+natural-language programming	applescript	3
+natural-language programming	attempto controlled english	3
+natural-language programming	cobol	3
+natural-language programming	cleartalk	3
+natural-language programming	flow-matic	3
+natural-language programming	hypertalk	3
+natural-language programming	inform 7	3
+natural-language programming	joss	3
+natural-language programming	sensetalk	3
+natural-language programming	software ag	3
+natural-language programming	transcript (programming language)	3
+natural-language programming	structured query language	3
+natural-language programming	xtalk	3
+natural user interface	edusim	3
+natural user interface	eye tracking	3
+natural user interface	kinetic user interface	3
+natural user interface	organic user interface	3
+natural user interface	intelligent personal assistant	3
+natural user interface	post-wimp	3
+natural user interface	scratch input	3
+natural user interface	spatial navigation	3
+natural user interface	tangible user interface	3
+natural user interface	touch user interface	3
+natural language programming	controlled natural language	2
+natural language programming	context-free language	2
+natural language programming	domain-specific language	2
+natural language programming	end-user programming	2
+natural language programming	knowledge representation	2
+natural language programming	natural-language processing	2
+natural language programming	automatic programming	2
+natural language programming	very high-level programming language	2
+natural language programming	applescript	2
+natural language programming	attempto controlled english	2
+natural language programming	cobol	2
+natural language programming	cleartalk	2
+natural language programming	flow-matic	2
+natural language programming	hypertalk	2
+natural language programming	inform 7	2
+natural language programming	joss	2
+natural language programming	sensetalk	2
+natural language programming	software ag	2
+natural language programming	transcript (programming language)	2
+natural language programming	structured query language	2
+natural language programming	xtalk	2
+mathematica	comparison of multi-paradigm programming languages	2
+mathematica	comparison of numerical analysis software	2
+mathematica	comparison of programming languages	2
+mathematica	comparison of regular expression engines	2
+mathematica	computational x	2
+mathematica	dynamic programming language	2
+mathematica	fourth-generation programming language	2
+mathematica	functional programming	2
+mathematica	literate programming	2
+mathematica	mathematical markup language	2
+mathematica	mathematical software	2
+mathematica	wolfram alpha	2
+mathematica	wolfram language	2
+mathematica	wolfram systemmodeler	2
+deep linguistic processing	combinatory categorial grammar	2
+deep linguistic processing	head-driven phrase structure grammar	2
+deep linguistic processing	lexical functional grammar	2
+deep linguistic processing	natural language processing	2
+deep linguistic processing	tree-adjoining grammar	2
+information extraction	ontology extraction	2
+information extraction	applications of artificial intelligence	2
+information extraction	concept mining	2
+information extraction	darpa tipster program	2
+information extraction	enterprise search	2
+information extraction	faceted search	2
+information extraction	knowledge extraction	2
+information extraction	named entity recognition	2
+information extraction	nutch	2
+information extraction	semantic translation	2
+information extraction	textmining	2
+information extraction	table extraction	2
+information extraction	web scraping	2
+information extraction	open information extraction	2
+information extraction	data extraction	2
+structured query language	b:sql	3
+structured query language	object database	3
+structured query language	comparison of relational database management systems	3
+structured query language	comparison of object–relational database management systems	3
+structured query language	d (data language specification)	3
+structured query language	query by example	3
+structured query language	sql syntax	3
+structured query language	pl/sql	3
+structured query language	transact-sql	3
+structured query language	online transaction processing	3
+structured query language	online analytical processing	3
+structured query language	data warehouse	3
+structured query language	relational data stream management system	3
+structured query language	nosql	3
+structured query language	mumps	3
+structured query language	hierarchical database model	3
+structured query language	star schema	3
+structured query language	snowflake schema	3
+xtalk	cleartalk	3
+web scraping	archive.today	3
+web scraping	comparison of feed aggregators	3
+web scraping	data scraping	3
+web scraping	data wrangling	3
+web scraping	importer (computing)	3
+web scraping	job wrapping	3
+web scraping	knowledge extraction	3
+web scraping	opensocial	3
+web scraping	scraper site	3
+web scraping	fake news website	3
+web scraping	blog scraping	3
+web scraping	spamdexing	3
+web scraping	domain name drop list	3
+web scraping	text corpus	3
+web scraping	web archiving	3
+web scraping	web crawler	3
+web scraping	offline reader	3
+web scraping	link farm	3
+web scraping	search engine scraping	3
+data extraction	information extraction	3
+data extraction	data retrieval	3
+data extraction	extract, transform, load	3
+data extraction	data mining	3
+nutch	faceted search	3
+nutch	information extraction	3
+nutch	enterprise search	3
+textmining	concept mining	3
+textmining	document processing	3
+textmining	full text search	3
+textmining	market sentiment	3
+textmining	name resolution (semantics and text extraction)	3
+textmining	named entity recognition	3
+textmining	news analytics	3
+textmining	ontology learning	3
+textmining	record linkage	3
+textmining	sequential pattern mining	3
+textmining	w-shingling	3
+textmining	web mining	3
+semantic translation	data mapping	3
+semantic translation	federated search	3
+semantic translation	intelligent agents	3
+semantic translation	iso/iec 11179	3
+semantic translation	national information exchange model	3
+semantic translation	semantic heterogeneity	3
+semantic translation	semantic mapper	3
+semantic translation	semantic web	3
+semantic translation	vocabulary-based transformation	3
+semantic translation	web ontology language	3
+named entity recognition	controlled vocabulary	3
+named entity recognition	coreference	3
+named entity recognition	entity linking	3
+named entity recognition	information extraction	3
+named entity recognition	knowledge extraction	3
+named entity recognition	onomastics	3
+named entity recognition	record linkage	3
+named entity recognition	smart tag (microsoft)	3
+knowledge extraction	cluster analysis	3
+knowledge extraction	data archaeology	3
+faceted search	enterprise search	3
+faceted search	exploratory search	3
+faceted search	faceted classification	3
+faceted search	human–computer information retrieval	3
+faceted search	information extraction	3
+faceted search	nosql	3
+faceted search	voxound	3
+darpa tipster program	message understanding conference	3
+darpa tipster program	text retrieval conference	3
+enterprise search	collaborative search engine	3
+enterprise search	comparison of enterprise search software	3
+enterprise search	data defined storage	3
+enterprise search	enterprise bookmarking	3
+enterprise search	enterprise information access	3
+enterprise search	faceted search	3
+enterprise search	information extraction	3
+enterprise search	knowledge management	3
+enterprise search	text mining	3
+enterprise search	vertical search	3
+concept mining	formal concept analysis	3
+concept mining	information extraction	3
+concept mining	compound term processing	3
+ontology extraction	automatic taxonomy construction	3
+ontology extraction	computational linguistics	3
+ontology extraction	ontology (computer science)	3
+ontology extraction	information extraction	3
+ontology extraction	natural language understanding	3
+ontology extraction	semantic web	3
+ontology extraction	text mining	3
+lexical functional grammar	glue semantics	3
+lexical functional grammar	syntax-semantics interface	3
+lexical functional grammar	head-driven phrase structure grammar	3
+lexical functional grammar	relational grammar	3
+lexical functional grammar	tree-adjoining grammar	3
+head-driven phrase structure grammar	lexical-functional grammar	3
+head-driven phrase structure grammar	minimal recursion semantics	3
+head-driven phrase structure grammar	relational grammar	3
+head-driven phrase structure grammar	situation semantics	3
+head-driven phrase structure grammar	syntax	3
+head-driven phrase structure grammar	transformational grammar	3
+head-driven phrase structure grammar	type description language	3
+combinatory categorial grammar	categorial grammar	3
+combinatory categorial grammar	combinatory logic	3
+combinatory categorial grammar	embedded pushdown automaton	3
+combinatory categorial grammar	link grammar	3
+combinatory categorial grammar	type shifter	3
+wolfram systemmodeler	openmodelica	3
+wolfram systemmodeler	jmodelica.org	3
+wolfram systemmodeler	amesim	3
+wolfram systemmodeler	apmonitor	3
+wolfram systemmodeler	modelica	3
+wolfram systemmodeler	mathematica	3
+wolfram systemmodeler	scientific modelling	3
+wolfram systemmodeler	simulation	3
+wolfram systemmodeler	simulink	3
+wolfram systemmodeler	computer simulation	3
+wolfram systemmodeler	dymola	3
+wolfram systemmodeler	simulationx	3
+wolfram systemmodeler	maplesim	3
+wolfram language	notebook interface	3
+mathematical markup language	comparison of document markup languages	3
+literate programming	documentation generator	3
+literate programming	notebook interface	3
+literate programming	sweave	3
+literate programming	knitr	3
+literate programming	self-documenting code	3
+fourth-generation programming language	first-generation programming language	3
+fourth-generation programming language	second-generation programming language	3
+fourth-generation programming language	third-generation programming language	3
+fourth-generation programming language	fifth-generation programming language	3
+fourth-generation programming language	domain-specific programming language	3
+fourth-generation programming language	rapid application development	3
+functional programming	purely functional programming	3
+functional programming	comparison of programming paradigms	3
+functional programming	eager evaluation	3
+functional programming	nested function	3
+functional programming	inductive functional programming	3
+functional programming	functional reactive programming	3
+dynamic programming language	comparison of programming languages	3
+dynamic programming language	name binding	3
+dynamic programming language	von neumann architecture	3
+computational x	computational thinking	3
+comparison of regular expression engines	regular expression	3
+comparison of programming languages	comparison of basic instructions of programming languages	3
+comparison of programming languages	comparison of programming languages (syntax)	3
+comparison of programming languages	comparison of programming paradigms	3
+comparison of programming languages	comparison of integrated development environments	3
+comparison of programming languages	comparison of multi-paradigm programming languages	3
+comparison of programming languages	measuring programming language popularity	3
+comparison of programming languages	tiobe index	3
+comparison of numerical analysis software	comparison of computer algebra systems	3
+comparison of numerical analysis software	comparison of deep-learning software	3
+comparison of numerical analysis software	comparison of statistical packages	3
+comparison of multi-paradigm programming languages	programming paradigm	3
+comparison of multi-paradigm programming languages	domain-specific programming language	3
+comparison of multi-paradigm programming languages	domain-specific multimodeling	3
+transcript (programming language)	metacard	3
+transcript (programming language)	hypercard	3
+hypertalk	inform	3
+inform 7	inform version history	3
+inform 7	tads	3
+cleartalk	attempto controlled english	3
+cleartalk	newspeak	3
+cleartalk	xtalk	3
+cobol	blis/cobol	3
+cobol	cobol resource	3
+cobol	codasyl	3
+cobol	comparison of programming languages	3
+attempto controlled english	gellish	3
+attempto controlled english	natural language processing	3
+attempto controlled english	natural language programming	3
+attempto controlled english	structured english	3
+attempto controlled english	cleartalk	3
+attempto controlled english	inform 7	3
+very high-level programming language	automatic programming	3
+very high-level programming language	low-level programming language	3
+very high-level programming language	third-generation programming language	3
+very high-level programming language	fourth-generation programming language	3
+very high-level programming language	fifth-generation programming language	3
+very high-level programming language	feature oriented programming	3
+applescript	bbedit	3
+automatic programming	automatic bug fixing	3
+automatic programming	automated machine learning	3
+automatic programming	comparison of code generation tools	3
+automatic programming	feature-oriented programming	3
+automatic programming	language-oriented programming	3
+automatic programming	modeling language	3
+automatic programming	program transformation	3
+automatic programming	semantic translation	3
+automatic programming	vocabulary-based transformation	3
+automatic programming	fourth-generation programming language	3
+automatic programming	low-code development platforms	3
+knowledge representation	alphabet of human thought	3
+knowledge representation	belief revision	3
+knowledge representation	chunking (psychology)	3
+knowledge representation	commonsense knowledge base	3
+knowledge representation	conceptual graph	3
+knowledge representation	datr	3
+knowledge representation	logico-linguistic modeling	3
+knowledge representation	personal knowledge base	3
+knowledge representation	knowledge graph	3
+knowledge representation	knowledge management	3
+knowledge representation	semantic technology	3
+knowledge representation	valuation-based system	3
+natural-language processing	1 the road	3
+natural-language processing	automated essay scoring	3
+natural-language processing	biomedical text mining	3
+natural-language processing	compound term processing	3
+natural-language processing	computational linguistics	3
+natural-language processing	computer-assisted reviewing	3
+natural-language processing	controlled natural language	3
+natural-language processing	deep learning	3
+natural-language processing	deep linguistic processing	3
+natural-language processing	distributional semantics	3
+natural-language processing	foreign language reading aid	3
+natural-language processing	foreign language writing aid	3
+natural-language processing	information extraction	3
+natural-language processing	information retrieval	3
+natural-language processing	language and communication technologies	3
+natural-language processing	language technology	3
+natural-language processing	latent semantic indexing	3
+natural-language processing	native-language identification	3
+natural-language processing	natural language programming	3
+natural-language processing	natural language user interface	3
+natural-language processing	query expansion	3
+natural-language processing	query understanding	3
+natural-language processing	reification (linguistics)	3
+natural-language processing	speech processing	3
+natural-language processing	spoken dialogue systems	3
+natural-language processing	text-proofing	3
+natural-language processing	text simplification	3
+natural-language processing	transformer (machine learning model)	3
+natural-language processing	truecasing	3
+natural-language processing	question answering	3
+natural-language processing	word2vec	3
+end-user programming	automatic programming	3
+end-user programming	end-user computing	3
+end-user programming	low-code development platforms	3
+end-user programming	natural language programming	3
+end-user programming	situational application	3
+end-user programming	software engineering	3
+domain-specific language	language workbench	3
+domain-specific language	architecture description language	3
+domain-specific language	domain-specific entertainment language	3
+domain-specific language	language for specific purposes	3
+domain-specific language	jargon	3
+domain-specific language	metalinguistic abstraction	3
+domain-specific language	programming domain	3
+controlled natural language	constructed language	3
+controlled natural language	knowledge representation and reasoning	3
+controlled natural language	natural language processing	3
+controlled natural language	controlled vocabulary	3
+controlled natural language	controlled language in machine translation	3
+controlled natural language	structured english	3
+controlled natural language	simple english wikipedia	3
+discourse representation theory	combinatory categorial grammar	2
+discourse representation theory	donkey pronoun	2
+discourse representation theory	montague grammar	2
+discourse representation theory	segmented discourse representation theory	2
+computational linguistics	artificial intelligence in fiction	2
+computational linguistics	collostructional analysis	2
+computational linguistics	computational lexicology	2
+computational linguistics	computational linguistics (journal)	2
+computational linguistics	computational models of language acquisition	2
+computational linguistics	computational semantics	2
+computational linguistics	computational semiotics	2
+computational linguistics	computer-assisted reviewing	2
+computational linguistics	dialog systems	2
+computational linguistics	glottochronology	2
+computational linguistics	grammar induction	2
+computational linguistics	human speechome project	2
+computational linguistics	internet linguistics	2
+computational linguistics	lexicostatistics	2
+computational linguistics	natural language processing	2
+computational linguistics	natural language user interface	2
+computational linguistics	quantitative linguistics	2
+computational linguistics	semantic relatedness	2
+computational linguistics	semantometrics	2
+computational linguistics	systemic functional linguistics	2
+computational linguistics	translation memory	2
+computational linguistics	universal networking language	2
+computational semantics	discourse representation theory	2
+computational semantics	formal semantics (natural language)	2
+computational semantics	minimal recursion semantics	2
+computational semantics	natural language understanding	2
+computational semantics	semantic compression	2
+computational semantics	semantic parsing	2
+computational semantics	semantic web	2
+computational semantics	semeval	2
+computational semantics	wordnet	2
+montague grammar	categorial grammar	3
+montague grammar	continuation-passing style	3
+montague grammar	kripke semantics	3
+montague grammar	situation semantics	3
+montague grammar	temperature paradox	3
+segmented discourse representation theory	speech act	3
+segmented discourse representation theory	contrast (linguistics)	3
+universal networking language	semantic network	3
+universal networking language	abstract semantic graph	3
+universal networking language	semantic translation	3
+universal networking language	semantic unification	3
+universal networking language	abstract meaning representation	3
+wordnet	lexical markup framework	3
+wordnet	machine-readable dictionary	3
+wordnet	synonym ring	3
+wordnet	taxonomy (general)	3
+wordnet	thoughttreasure	3
+semantic parsing	automatic programming	3
+semantic parsing	class (philosophy)	3
+semantic parsing	formal semantics (linguistics)	3
+semantic parsing	information extraction	3
+semantic parsing	information retrieval	3
+semantic parsing	question answering	3
+semantic parsing	semantic analysis (linguistics)	3
+semantic parsing	semantic role labeling	3
+semantic parsing	statistical semantics	3
+semantic parsing	syntax	3
+semantic parsing	type–token distinction	3
+semeval	computational semantics	3
+semeval	natural language processing	3
+semeval	word sense	3
+semeval	semantic analysis (computational)	3
+natural language understanding	computational semantics	3
+natural language understanding	computational linguistics	3
+natural language understanding	discourse representation theory	3
+natural language understanding	deep linguistic processing	3
+natural language understanding	history of natural language processing	3
+natural language understanding	information extraction	3
+natural language understanding	mathematica	3
+natural language understanding	natural language programming	3
+natural language understanding	natural language user interface	3
+natural language understanding	siri (software)	3
+natural language understanding	wolfram alpha	3
+natural language understanding	open information extraction	3
+natural language understanding	part-of-speech tagging	3
+natural language understanding	speech recognition	3
+semantic compression	controlled natural language	3
+semantic compression	information theory	3
+semantic compression	lexical substitution	3
+semantic compression	quantities of information	3
+semantic compression	text simplification	3
+minimal recursion semantics	delph-in	3
+formal semantics (natural language)	alternative semantics	3
+formal semantics (natural language)	barbara partee	3
+formal semantics (natural language)	compositionality	3
+formal semantics (natural language)	computational semantics	3
+formal semantics (natural language)	discourse representation theory	3
+formal semantics (natural language)	dynamic semantics	3
+formal semantics (natural language)	inquisitive semantics	3
+formal semantics (natural language)	philosophy of language	3
+formal semantics (natural language)	pragmatics	3
+formal semantics (natural language)	richard montague	3
+formal semantics (natural language)	montague grammar	3
+semantic relatedness	analogy	3
+semantic relatedness	componential analysis	3
+semantic relatedness	coherence (linguistics)	3
+semantic relatedness	levenshtein distance	3
+semantic relatedness	semantic differential	3
+semantic relatedness	semantic similarity network	3
+semantic relatedness	terminology extraction	3
+semantic relatedness	word2vec	3
+systemic functional linguistics	michael halliday	3
+systemic functional linguistics	ruqaiya hasan	3
+systemic functional linguistics	mary macken-horarik	3
+systemic functional linguistics	c.m.i.m. matthiessen	3
+systemic functional linguistics	j.r. martin	3
+systemic functional linguistics	mary j. schleppegrell	3
+systemic functional linguistics	systemic functional grammar	3
+systemic functional linguistics	nominal group (language)	3
+translation memory	comparison of computer-assisted translation tools	3
+translation memory	translation	3
+translation memory	text corpus	3
+translation memory	computer-assisted reviewing	3
+translation memory	translation software	3
+translation memory	parallel text	3
+translation memory	online bilingual concordance	3
+quantitative linguistics	quantitative comparative linguistics	3
+lexicostatistics	basic english	3
+lexicostatistics	cognate	3
+lexicostatistics	comparative linguistics	3
+lexicostatistics	comparative method	3
+lexicostatistics	global lexicostatistical database	3
+lexicostatistics	glottochronology	3
+lexicostatistics	historical linguistics	3
+lexicostatistics	indo-european studies	3
+lexicostatistics	intercontinental dictionary series	3
+lexicostatistics	linguistic distance	3
+lexicostatistics	mass lexical comparison	3
+lexicostatistics	proto-language	3
+lexicostatistics	swadesh list	3
+glottochronology	basic english	3
+glottochronology	cognate	3
+glottochronology	dolgopolsky list	3
+glottochronology	historical linguistics	3
+glottochronology	indo-european studies	3
+glottochronology	leipzig–jakarta list	3
+glottochronology	lexicostatistics	3
+glottochronology	mass lexical comparison	3
+glottochronology	proto-language	3
+glottochronology	quantitative comparative linguistics	3
+glottochronology	swadesh list	3
+grammar induction	artificial grammar learning	3
+grammar induction	example-based machine translation	3
+grammar induction	inductive programming	3
+grammar induction	kolmogorov complexity	3
+grammar induction	language identification in the limit	3
+grammar induction	straight-line grammar	3
+grammar induction	syntactic pattern recognition	3
+internet linguistics	internet slang	3
+internet linguistics	stylistics (linguistics)	3
+internet linguistics	standard english	3
+internet linguistics	enron corpus	3
+internet linguistics	enron corporation	3
+internet linguistics	applied linguistics	3
+internet linguistics	glossary of internet-related terminology	3
+internet linguistics	:de:internetlinguistik	3
+dialog systems	call avoidance	3
+computer-assisted reviewing	computer-assisted translation	3
+computer-assisted reviewing	language industry	3
+computer-assisted reviewing	translation memory	3
+computational semiotics	artificial intelligence	3
+computational semiotics	computational linguistics	3
+computational semiotics	computer-human interaction	3
+computational semiotics	formal language	3
+computational semiotics	information theory	3
+computational semiotics	knowledge representation	3
+computational semiotics	computational semantics	3
+computational semiotics	logic of information	3
+computational semiotics	meaning (semiotics)	3
+computational semiotics	natural language	3
+computational semiotics	relational database	3
+computational semiotics	semiotic engineering	3
+computational semiotics	semiotic information theory	3
+computational semiotics	user interface	3
+artificial intelligence in fiction	biology in fiction	3
+artificial intelligence in fiction	darwin among the machines	3
+artificial intelligence in fiction	machine rule	3
+artificial intelligence in fiction	simulated consciousness (science fiction)	3
+speech recognition in linux	speech interface guideline	3
+voice browser	call control extensible markup language	3
+voice browser	speech recognition grammar specification	3
+voice browser	semantic interpretation for speech recognition	3
+voice browser	speech synthesis markup language	3
+voice browser	pronunciation lexicon specification	3
+voice browser	ecmascript	3
+user interface engineering	chief experience officer	3
+user interface engineering	cognitive dimensions	3
+user interface engineering	discoverability	3
+user interface engineering	experience design	3
+user interface engineering	gender hci	3
+user interface engineering	human interface guidelines	3
+user interface engineering	human-computer interaction	3
+user interface engineering	icon design	3
+user interface engineering	information architecture	3
+user interface engineering	interaction design	3
+user interface engineering	interaction design pattern	3
+user interface engineering	interaction flow modeling language	3
+user interface engineering	ifml	3
+user interface engineering	interaction technique	3
+user interface engineering	knowledge visualization	3
+user interface engineering	look and feel	3
+user interface engineering	mobile interaction	3
+user interface engineering	natural mapping (interface design)	3
+user interface engineering	new interfaces for musical expression	3
+user interface engineering	participatory design	3
+user interface engineering	principles of user interface design	3
+user interface engineering	process-centered design	3
+user interface engineering	progressive disclosure	3
+user interface engineering	user experience design	3
+user interface engineering	user-centered design	3
+voice command	ai effect	3
+voice command	alpac	3
+voice command	applications of artificial intelligence	3
+voice command	articulatory speech recognition	3
+voice command	audio mining	3
+voice command	audio-visual speech recognition	3
+voice command	automatic language translator	3
+voice command	automotive head unit	3
+voice command	cache language model	3
+voice command	dragon naturallyspeaking	3
+voice command	fluency voice technology	3
+voice command	google voice search	3
+voice command	ibm viavoice	3
+voice command	keyword spotting	3
+voice command	kinect	3
+voice command	mondegreen	3
+voice command	multimedia information retrieval	3
+voice command	origin of speech	3
+voice command	phonetic search technology	3
+voice command	speaker diarisation	3
+voice command	speaker recognition	3
+voice command	speech analytics	3
+voice command	speech interface guideline	3
+voice command	speech recognition software for linux	3
+voice command	speech synthesis	3
+voice command	speech verification	3
+voice command	subtitle (captioning)	3
+voice command	voicexml	3
+voice command	voxforge	3
+voice command	windows speech recognition	3
+voice command	timeline of speech and voice recognition	3
+collostructional analysis	collocation extraction	3
+voice computing	speech recognition	3
+voice computing	natural language processing	3
+voice computing	voice user interface	3
+voice computing	audio codec	3
+voice computing	ubiquitous computing	3
+voice computing	hands-free computing	3
+web of things	internet of things	3
+web of things	smart device	3
+web of things	home automation	3
+web of things	smart grid	3
+telerobotics	astrobotic technology	3
+telerobotics	dragon runner	3
+telerobotics	lunokhod 1	3
+telerobotics	medical robot	3
+telerobotics	military robot	3
+telerobotics	remote control vehicle	3
+telerobotics	remote manipulator	3
+telerobotics	robonaut	3
+telerobotics	smart device	3
+telerobotics	spirit rover	3
+telerobotics	snowplow robot	3
+telerobotics	uwa telerobot	3
+smartphone	comparison of smartphones	3
+smartphone	e-reader	3
+smartphone	lists of mobile computers	3
+smartphone	media transfer protocol	3
+smartphone	mobile internet device	3
+smartphone	portable media player	3
+smartphone	second screen	3
+smartphone	smartphone kill switch	3
+smartphone	smartphone zombie	3
+ubiquitous computing	ambient media	3
+ubiquitous computing	computer accessibility	3
+ubiquitous computing	human-centered computing	3
+ubiquitous computing	mobile interaction	3
+ubiquitous computing	smart city	3
+ubiquitous computing	ubiquitous commerce	3
+ubiquitous computing	ubiquitous learning	3
+ubiquitous computing	ubiquitous robot	3
+ubiquitous computing	wearable computer	3
+smart, connected products	ambiesense	3
+smart, connected products	audiocubes	3
+smart, connected products	home network	3
+smart, connected products	intelligent maintenance system	3
+smart, connected products	nabaztag	3
+smart, connected products	smart speaker	3
+smart, connected products	wearable technology	3
+smart, connected products	ubiquitous computing	3
+mobile phone	cellular frequencies	3
+mobile phone	customer proprietary network information	3
+mobile phone	field telephone	3
+mobile phone	mobile broadband	3
+mobile phone	mobile internet device	3
+mobile phone	mobile phone accessories	3
+mobile phone	mobile phones on aircraft	3
+mobile phone	mobile phone use in schools	3
+mobile phone	mobile technology	3
+mobile phone	mobile telephony	3
+mobile phone	form factor (mobile phones)	3
+mobile phone	optical head-mounted display	3
+mobile phone	openbts	3
+mobile phone	personal handy-phone system	3
+mobile phone	prepaid mobile phone	3
+mobile phone	two-way radio	3
+mobile phone	professional mobile radio	3
+mobile phone	push-button telephone	3
+mobile phone	rechargeable battery	3
+mobile phone	smombie	3
+mobile phone	surveillance	3
+mobile phone	tethering	3
+mobile phone	voip phone	3
+smart environment	building automation	3
+smart environment	home robot	3
+smart environment	intelligent building	3
+smart environment	smart, connected products	3
+smart environment	ubiquitous computing	3
+sensor node	mesh networking	3
+sensor node	mobile ad hoc network	3
+sensor node	mwsn	3
+mobile device	converged device	3
+mobile device	mobile interaction service	3
+mobile device	near field communication	3
+mobile device	smart device	3
+computer appliance	automotive navigation system	3
+computer appliance	green computing	3
+computer appliance	hardware acceleration	3
+computer appliance	information appliance	3
+computer appliance	linux devices	3
+computer appliance	personal digital assistant	3
+computer appliance	plug computer	3
+computer appliance	smartphone	3
+computer appliance	software appliance	3
+computer appliance	middlebox	3
+information appliance	archy (software)	3
+information appliance	computer appliance	3
+information appliance	embedded system	3
+information appliance	internet appliance	3
+information appliance	mobile web	3
+information appliance	technological convergence	3
+information appliance	ubiquitous computing	3
+information appliance	smart speaker	3
+quantified self	self-experimentation	3
+quantified self	ehealth	3
+quantified self	human enhancement	3
+quantified self	transhumanism	3
+quantified self	experience sampling method	3
+smart grid	charge control	3
+smart grid	electranet	3
+smart grid	grid friendly	3
+smart grid	grid energy storage	3
+smart grid	home energy storage	3
+smart grid	large-scale energy storage	3
+smart grid	microgrid	3
+smart grid	net metering	3
+smart grid	open smart grid protocol	3
+smart grid	smart grids by country	3
+smart grid	smart villages in asia	3
+smart grid	super grid	3
+smart grid	vehicle-to-grid	3
+smart grid	virtual power plant	3
+smart grid	wide area synchronous grid	3
+smart grid	smart city	3
+responsive computer-aided design	design computing	3
+responsive computer-aided design	four-dimensional product	3
+responsive computer-aided design	industry 4.0	3
+responsive computer-aided design	product design	3
+open interconnect consortium	iotivity	3
+open interconnect consortium	alljoyn	3
+open interconnect consortium	constrained application protocol	3
+open interconnect consortium	universal plug and play	3
+network simulation	channel model	3
+network simulation	network emulation	3
+network simulation	traffic generation model	3
+iot cloud	block-level storage	3
+iot cloud	communication protocol	3
+iot cloud	communications system	3
+iot cloud	cloud collaboration	3
+iot cloud	cloud computing security	3
+iot cloud	cloud computing comparison	3
+iot cloud	cloud management	3
+iot cloud	cloud research	3
+iot cloud	cloud robotics	3
+iot cloud	cloud storage	3
+iot cloud	cloudlet	3
+iot cloud	computer cluster	3
+iot cloud	cooperative storage cloud	3
+iot cloud	dew computing	3
+iot cloud	data cluster	3
+iot cloud	directory (computing)	3
+iot cloud	distributed data store	3
+iot cloud	distributed database	3
+iot cloud	distributed computing	3
+iot cloud	distributed networking	3
+iot cloud	decentralized computing	3
+iot cloud	edge computing	3
+iot cloud	edge device	3
+iot cloud	escience	3
+iot cloud	file system	3
+iot cloud	clustered file system	3
+iot cloud	distributed file system	3
+iot cloud	distributed file system for cloud	3
+iot cloud	fog computing	3
+iot cloud	fog robotics	3
+iot cloud	grid computing	3
+iot cloud	in-memory database	3
+iot cloud	in-memory processing	3
+iot cloud	internet of things	3
+iot cloud	microservices	3
+iot cloud	mobile cloud computing	3
+iot cloud	mobile edge computing	3
+iot cloud	peer-to-peer	3
+iot cloud	personal cloud	3
+iot cloud	robot as a service	3
+iot cloud	service-oriented architecture	3
+iot cloud	time-sharing	3
+iot cloud	ubiquitous computing	3
+iot cloud	web computing	3
+internet of military things	internet of autonomous things	3
+internet of military things	internet of things	3
+internet of military things	smart munitions	3
+internet of military things	edge computing	3
+internet of military things	biometrics	3
+internet of military things	cyberwarfare	3
+industry 4.0	advanced manufacturing	3
+industry 4.0	computer-integrated manufacturing	3
+industry 4.0	digital modeling and fabrication	3
+industry 4.0	industrial control system	3
+industry 4.0	intelligent maintenance system	3
+industry 4.0	lights out (manufacturing)	3
+industry 4.0	machine to machine	3
+industry 4.0	cyber manufacturing	3
+industry 4.0	work 4.0	3
+industry 4.0	world economic forum	3
+industry 4.0	simulation software	3
+industry 4.0	the war on normal people	3
+industry 4.0	technological unemployment	3
+indoor positioning system	automatic vehicle location	3
+indoor positioning system	bluetooth low energy	3
+indoor positioning system	cyber-physical system	3
+indoor positioning system	dead reckoning	3
+indoor positioning system	earth's magnetic field	3
+indoor positioning system	floor plan	3
+indoor positioning system	house navigation system	3
+indoor positioning system	geolocation	3
+indoor positioning system	google maps	3
+indoor positioning system	gsm localization	3
+indoor positioning system	home automation	3
+indoor positioning system	home network	3
+indoor positioning system	internet of things	3
+indoor positioning system	location-based service	3
+indoor positioning system	motion planning	3
+indoor positioning system	navizon	3
+indoor positioning system	near field communication	3
+indoor positioning system	open source routing machine	3
+indoor positioning system	pointr	3
+indoor positioning system	real-time locating system	3
+indoor positioning system	simultaneous localization and mapping	3
+indoor positioning system	robotic mapping	3
+indoor positioning system	sensor fusion	3
+indoor positioning system	skyhook wireless	3
+indoor positioning system	visible light communication	3
+indoor positioning system	li-fi	3
+indoor positioning system	wayfinding	3
+indoor positioning system	webgl	3
+edge computing	cloudlet	3
+edge computing	content delivery network	3
+edge computing	edge data integration	3
+edge computing	edge device	3
+edge computing	fat client	3
+edge computing	fog computing	3
+edge computing	heterogeneous computing	3
+edge computing	industry 4.0	3
+edge computing	mobile edge computing	3
+edge computing	personal computer	3
+edge computing	serverless architecture	3
+edge computing	smart camera	3
+edge computing	ubiquitous computing	3
+four-dimensional product	actuator	3
+four-dimensional product	autonomous robot	3
+four-dimensional product	evolutionary robotics	3
+four-dimensional product	fourth industrial revolution	3
+four-dimensional product	industrial design	3
+four-dimensional product	industry 4.0	3
+four-dimensional product	responsive computer-aided design	3
+four-dimensional product	sensor	3
+four-dimensional product	smart wearable system	3
+data distribution service	middleware	3
+data distribution service	open architecture computing environment	3
+data distribution service	object management group	3
+cloud manufacturing	3d printing	3
+cloud manufacturing	cloud computing	3
+cloud manufacturing	cyber manufacturing	3
+big data	big data ethics	3
+big data	big data maturity model	3
+big data	big memory	3
+big data	data curation	3
+big data	data defined storage	3
+big data	data lineage	3
+big data	data philanthropy	3
+big data	data science	3
+big data	datafication	3
+big data	document-oriented database	3
+big data	in-memory processing	3
+big data	urban informatics	3
+big data	very large database	3
+big data	xldb	3
+cyber-physical system	indoor positioning system	3
+cyber-physical system	industry 4.0	3
+cyber-physical system	intelligent maintenance system	3
+cyber-physical system	internet of things	3
+cyber-physical system	responsive computer-aided design	3
+cyber-physical system	signal-flow graph	3
+artificial intelligence of things	artificial intelligence	3
+artificial intelligence of things	internet of things	3
+5g	1g	3
+5g	2g	3
+5g	3g	3
+5g	4g	3
+5g	wireless device radiation and health	3
+smart speaker	smart home hub	3
+mobile robot	ant robotics	3
+mobile robot	autonomous robot	3
+mobile robot	autonomous underwater vehicle	3
+mobile robot	darpa lagr program	3
+mobile robot	domestic robot	3
+mobile robot	humanoid robot	3
+mobile robot	hexapod (robotics)	3
+mobile robot	industrial robot	3
+mobile robot	justin (robot)	3
+mobile robot	lists of types of robots	3
+mobile robot	mobile industrial robots	3
+mobile robot	mobile manipulator	3
+mobile robot	mobile wireless sensor network	3
+mobile robot	personal robot	3
+mobile robot	robot	3
+mobile robot	robot kit	3
+mobile robot	robotic arm	3
+mobile robot	robotic mapping	3
+mobile robot	robot kinematics	3
+mobile robot	rover (space exploration)	3
+mobile robot	transport robot	3
+mobile robot	ubiquitous robot	3
+mobile robot	unmanned aerial vehicle	3
+mobile robot	wi-fi	3
+mobile manipulator	cyber-physical system	3
+mobile manipulator	home automation	3
+mobile manipulator	remote manipulator	3
+mobile manipulator	robotic arm	3
+indoor positioning	automatic vehicle location	3
+indoor positioning	bluetooth low energy	3
+indoor positioning	cyber-physical system	3
+indoor positioning	dead reckoning	3
+indoor positioning	earth's magnetic field	3
+indoor positioning	floor plan	3
+indoor positioning	house navigation system	3
+indoor positioning	geolocation	3
+indoor positioning	google maps	3
+indoor positioning	gsm localization	3
+indoor positioning	home automation	3
+indoor positioning	home network	3
+indoor positioning	internet of things	3
+indoor positioning	location-based service	3
+indoor positioning	motion planning	3
+indoor positioning	navizon	3
+indoor positioning	near field communication	3
+indoor positioning	open source routing machine	3
+indoor positioning	pointr	3
+indoor positioning	real-time locating system	3
+indoor positioning	simultaneous localization and mapping	3
+indoor positioning	robotic mapping	3
+indoor positioning	sensor fusion	3
+indoor positioning	skyhook wireless	3
+indoor positioning	visible light communication	3
+indoor positioning	li-fi	3
+indoor positioning	wayfinding	3
+indoor positioning	webgl	3
+home robot	adaptable robotics	3
+home robot	android (robot)	3
+home robot	artificial intelligence	3
+home robot	comparison of domestic robots	3
+home robot	disability robot	3
+home robot	dustbot	3
+home robot	floor plans	3
+home robot	fog computing	3
+home robot	furby	3
+home robot	gerontotechnology	3
+home robot	google home	3
+home robot	home automation	3
+home robot	home automation for the elderly and disabled	3
+home robot	house navigation system	3
+home robot	humanoid robot	3
+home robot	internet of things	3
+home robot	mobile robot	3
+home robot	open hardware	3
+home robot	personal robot	3
+home robot	poo-chi	3
+home robot	robosapien	3
+home robot	robot kit	3
+home robot	robotic arm	3
+home robot	robotic mapping	3
+home robot	robotics suite	3
+home robot	service robot	3
+home robot	simultaneous localization and mapping	3
+home robot	soft robotics	3
+home automation for the elderly and disabled	assisted living	3
+home automation for the elderly and disabled	disability robot	3
+home automation for the elderly and disabled	domestic robot	3
+home automation for the elderly and disabled	elderly care	3
+home automation for the elderly and disabled	floor plan	3
+home automation for the elderly and disabled	house navigation system	3
+home automation for the elderly and disabled	gerontechnology	3
+home automation for the elderly and disabled	wikt:healthcare robot	3
+home automation for the elderly and disabled	home robot	3
+home automation for the elderly and disabled	indoor positioning system	3
+home automation for the elderly and disabled	roujin z	3
+home automation for the elderly and disabled	transgenerational design	3
+meaning-text theory	natural language generation	2
+markov text generators	dynamics of markovian particles	2
+markov text generators	gauss–markov process	2
+markov text generators	markov chain approximation method	2
+markov text generators	markov chain geostatistics	2
+markov text generators	markov chain mixing time	2
+markov text generators	markov decision process	2
+markov text generators	markov information source	2
+markov text generators	markov odometer	2
+markov text generators	markov random field	2
+markov text generators	quantum markov chain	2
+markov text generators	semi-markov process	2
+markov text generators	stochastic cellular automaton	2
+markov text generators	telescoping markov chain	2
+markov text generators	variable-order markov model	2
+natural language generation	autocompletion	3
+natural language generation	automated journalism	3
+natural language generation	automated paraphrasing	3
+natural language generation	markov text generators	3
+natural language generation	meaning-text theory	3
+variable-order markov model	stochastic chains with memory of variable length	3
+variable-order markov model	examples of markov chains	3
+variable-order markov model	variable order bayesian network	3
+variable-order markov model	markov process	3
+variable-order markov model	markov chain monte carlo	3
+variable-order markov model	semi-markov process	3
+variable-order markov model	artificial intelligence	3
+semi-markov process	markov process	3
+semi-markov process	renewal theory	3
+semi-markov process	variable-order markov model	3
+semi-markov process	hidden semi-markov model	3
+markov odometer	abelian sandpile model	3
+quantum markov chain	quantum walk	3
+markov random field	constraint composite graph	3
+markov random field	graphical model	3
+markov random field	dependency network (graphical model)	3
+markov random field	hammersley–clifford theorem	3
+markov random field	hopfield network	3
+markov random field	interacting particle system	3
+markov random field	ising model	3
+markov random field	log-linear analysis	3
+markov random field	markov chain	3
+markov random field	markov logic network	3
+markov random field	maximum entropy method	3
+markov random field	stochastic cellular automaton	3
+markov information source	entropy rate	3
+markov decision process	probabilistic automata	3
+markov decision process	quantum finite automata	3
+markov decision process	partially observable markov decision process	3
+markov decision process	dynamic programming	3
+markov decision process	bellman equation	3
+markov decision process	hamilton–jacobi–bellman equation	3
+markov decision process	optimal control	3
+markov decision process	recursive economics	3
+markov decision process	mabinogion sheep problem	3
+markov decision process	stochastic games	3
+markov decision process	q-learning	3
+markov chain mixing time	mixing (mathematics)	3
+markov chain approximation method	control theory	3
+markov chain approximation method	optimal control	3
+markov chain approximation method	stochastic differential equation	3
+markov chain approximation method	differential equation	3
+markov chain approximation method	numerical analysis	3
+markov chain approximation method	stochastic process	3
+automated paraphrasing	round-trip translation	2
+automated paraphrasing	text simplification	2
+automated paraphrasing	text normalization	2
+autocompletion	wubi effect	2
+word2vec	autoencoder	2
+word2vec	document-term matrix	2
+word2vec	feature extraction	2
+word2vec	feature learning	2
+word2vec	language model	2
+word2vec	vector space model	2
+word2vec	thought vector	2
+word2vec	fasttext	2
+word2vec	glove (machine learning)	2
+word2vec	normalized compression distance	2
+text normalization	automated paraphrasing	3
+text normalization	canonicalization	3
+text normalization	text simplification	3
+text normalization	unicode equivalence	3
+round-trip translation	evaluation of machine translation	3
+round-trip translation	paraphrasing (computational linguistics)	3
+round-trip translation	translation-quality standards	3
+round-trip translation	humour in translation	3
+round-trip translation	language grid	3
+text simplification	automated paraphrasing	3
+text simplification	controlled natural language	3
+text simplification	lexical simplification	3
+text simplification	lexical substitution	3
+text simplification	semantic compression	3
+text simplification	text normalization	3
+text simplification	simplified technical english	3
+text simplification	basic english	3
+fasttext	gensim	3
+fasttext	word2vec	3
+fasttext	glove	3
+fasttext	artificial neural network	3
+fasttext	natural language processing	3
+glove (machine learning)	elmo	3
+glove (machine learning)	bert (language model)	3
+glove (machine learning)	word2vec	3
+glove (machine learning)	fasttext	3
+glove (machine learning)	natural language processing	3
+normalized compression distance	arxiv:1301.3781	3
+normalized compression distance	word2vec	3
+vector space model	bag-of-words model	3
+vector space model	compound term processing	3
+vector space model	conceptual space	3
+vector space model	eigenvalues and eigenvectors	3
+vector space model	inverted index	3
+vector space model	nearest neighbor search	3
+vector space model	sparse distributed memory	3
+vector space model	w-shingling	3
+feature learning	automated machine learning	3
+feature learning	basis function	3
+feature learning	deep learning	3
+feature learning	feature detection (computer vision)	3
+feature learning	feature extraction	3
+feature learning	kernel trick	3
+feature learning	vector quantization	3
+feature learning	variational autoencoder	3
+feature extraction	cluster analysis	3
+feature extraction	dimensionality reduction	3
+feature extraction	feature detection (computer vision)	3
+feature extraction	feature selection	3
+feature extraction	data mining	3
+feature extraction	connected-component labeling	3
+feature extraction	segmentation (image processing)	3
+feature extraction	space mapping	3
+feature extraction	dynamic texture	3
+feature extraction	radiomics	3
+language model	statistical model	3
+language model	factored language model	3
+language model	cache language model	3
+language model	katz's back-off model	3
+language model	transformer (machine learning model)	3
+language model	bert (language model)	3
+language model	gpt-2	3
+language model	gpt-3	3
+document-term matrix	bag of words model	3
+document-term matrix	tf-idf	3
+document-term matrix	latent semantic analysis	3
+document-term matrix	latent dirichlet allocation	3
+autoencoder	representation learning	3
+autoencoder	sparse dictionary learning	3
+autoencoder	deep learning	3
+text-proofing	american and british english spelling differences	2
+text-proofing	camera-ready	2
+text-proofing	distributed proofreaders	2
+text-proofing	etaoin shrdlu	2
+text-proofing	fact checking	2
+text-proofing	galley proof	2
+text-proofing	iso 5776	2
+text-proofing	obelism	2
+text-proofing	printing press check	2
+text-proofing	style guide	2
+text-proofing	typographical syntax	2
+text-proofing	writing circle	2
+basic english	academic word list	3
+basic english	bible in basic english	3
+basic english	controlled vocabulary	3
+basic english	e-prime	3
+basic english	français fondamental	3
+basic english	globish (nerrière)	3
+basic english	general service list	3
+basic english	international english	3
+basic english	plain english	3
+basic english	plain language	3
+basic english	readability	3
+basic english	seaspeak	3
+basic english	simplified technical english	3
+basic english	special english	3
+basic english	standard marine communication phrases	3
+simplified technical english	basic english	3
+simplified technical english	constructed language	3
+simplified technical english	international english	3
+simplified technical english	special english	3
+simplified technical english	topic-based authoring	3
+lexical substitution	lexical semantics	3
+lexical substitution	semantic compression	3
+lexical substitution	semeval	3
+lexical substitution	word sense	3
+lexical simplification	lexical substitution	3
+lexical simplification	text simplification	3
+typographical syntax	typographical error	3
+style guide	citation style	3
+style guide	graphic charter	3
+style guide	diction	3
+style guide	documentation	3
+style guide	english writing style	3
+style guide	prescription and description	3
+style guide	sentence spacing in language and style guides	3
+style guide	spelling	3
+printing press check	prepress	3
+printing press check	pre-flight (printing)	3
+printing press check	color printing	3
+printing press check	offset printing	3
+printing press check	modern engraving	3
+obelism	general punctuation	3
+galley proof	composing stick	3
+galley proof	prepress proofing	3
+fact checking	cherry picking	3
+fact checking	confirmation bias	3
+fact checking	social media	3
+fact checking	section 230 of the communications decency act	3
+distributed proofreaders	wikisource	3
+etaoin shrdlu	filler text	3
+etaoin shrdlu	lorem ipsum	3
+etaoin shrdlu	qwerty	3
+etaoin shrdlu	dvorak keyboard layout	3
+etaoin shrdlu	azertyuiop (horse)	3
+american and british english spelling differences	australian english	3
+american and british english spelling differences	canadian english	3
+american and british english spelling differences	english language in england	3
+american and british english spelling differences	english in the commonwealth of nations	3
+american and british english spelling differences	english orthography	3
+american and british english spelling differences	hong kong english	3
+american and british english spelling differences	hiberno-english	3
+american and british english spelling differences	indian english	3
+american and british english spelling differences	malaysian english	3
+american and british english spelling differences	manx english	3
+american and british english spelling differences	new zealand english	3
+american and british english spelling differences	philippine english	3
+american and british english spelling differences	scottish english	3
+american and british english spelling differences	singaporean english	3
+american and british english spelling differences	south african english	3
+speech processing	neurocomputational speech processing	2
+speech processing	speech coding	2
+speech processing	speech technology	2
+speech processing	natural language processing	2
+reification (linguistics)	drinker paradox	2
+reification (linguistics)	nonfirstorderizability	2
+reification (linguistics)	reification (computer science)	2
+reification (linguistics)	reification (fallacy)	2
+reification (linguistics)	reification (knowledge representation)	2
+query expansion	document retrieval	2
+query expansion	information retrieval	2
+query expansion	linguistics	2
+query expansion	morphology (linguistics)	2
+query expansion	natural language processing	2
+query expansion	search engine	2
+query expansion	search engine indexing	2
+query expansion	stemming	2
+reification (fallacy)	all models are wrong	3
+reification (fallacy)	counterfactual definiteness	3
+reification (fallacy)	idolatry	3
+reification (fallacy)	objectification	3
+reification (fallacy)	philosophical realism	3
+reification (computer science)	denotational semantics	3
+reification (computer science)	formal semantics of programming languages	3
+reification (computer science)	meta-circular evaluator	3
+reification (computer science)	metamodeling	3
+reification (computer science)	metaobject	3
+reification (computer science)	metaprogramming	3
+reification (computer science)	normalization by evaluation	3
+reification (computer science)	operational semantics	3
+reification (computer science)	reflection (computer science)	3
+reification (computer science)	resource description framework	3
+reification (computer science)	self-interpreter	3
+reification (computer science)	topic maps	3
+reification (knowledge representation)	reification (computer science)	3
+reification (knowledge representation)	reification (fallacy)	3
+reification (knowledge representation)	reification (linguistics)	3
+nonfirstorderizability	branching quantifier	3
+nonfirstorderizability	generalized quantifier	3
+nonfirstorderizability	plural quantification	3
+nonfirstorderizability	reification (linguistics)	3
+stemming	root (linguistics)	3
+stemming	stem (linguistics)	3
+stemming	morphology (linguistics)	3
+stemming	lemma (morphology)	3
+stemming	lemmatization	3
+stemming	lexeme	3
+stemming	inflection	3
+stemming	derivation (linguistics)	3
+stemming	natural language processing	3
+stemming	text mining	3
+stemming	computational linguistics	3
+stemming	snowball (programming language)	3
+stemming	nltk	3
+search engine indexing	controlled vocabulary	3
+search engine indexing	database index	3
+search engine indexing	full text search	3
+search engine indexing	information extraction	3
+search engine indexing	instant indexing	3
+search engine indexing	key word in context	3
+search engine indexing	selection-based search	3
+search engine indexing	site map	3
+search engine indexing	text retrieval	3
+search engine indexing	information literacy	3
+morphology (linguistics)	morphome (linguistics)	3
+search engine	comparison of web search engines	3
+search engine	information retrieval	3
+search engine	question answering	3
+search engine	filter bubble	3
+search engine	google effect	3
+search engine	internet search engines and libraries	3
+search engine	semantic web	3
+search engine	spell checker	3
+search engine	web development tools	3
+search engine	search engine manipulation effect	3
+search engine	search engine privacy	3
+linguistics	articulatory synthesis	3
+linguistics	axiom of categoricity	3
+linguistics	critical discourse analysis	3
+linguistics	cryptanalysis	3
+linguistics	decipherment	3
+linguistics	global language system	3
+linguistics	hermeneutics	3
+linguistics	integrational linguistics	3
+linguistics	integrationism	3
+linguistics	language engineering	3
+linguistics	language geography	3
+linguistics	metalinguistics	3
+linguistics	metacommunicative competence	3
+linguistics	microlinguistics	3
+linguistics	onomastics	3
+linguistics	reading	3
+linguistics	speech processing	3
+linguistics	stratificational linguistics	3
+document retrieval	compound term processing	3
+document retrieval	document classification	3
+document retrieval	enterprise search	3
+document retrieval	evaluation measures (information retrieval)	3
+document retrieval	full text search	3
+document retrieval	information retrieval	3
+document retrieval	latent semantic indexing	3
+document retrieval	search engine	3
+drinker paradox	reification (linguistics)	3
+drinker paradox	temporal logic	3
+drinker paradox	relevance logic	3
+speech coding	audio data compression	3
+speech coding	audio signal processing	3
+speech coding	data compression	3
+speech coding	digital signal processing	3
+speech coding	linear prediction	3
+speech coding	mobile phone	3
+speech coding	pulse-code modulation	3
+speech coding	psychoacoustic model	3
+speech coding	speech interface guideline	3
+speech coding	speech processing	3
+speech coding	speech synthesis	3
+speech coding	telecommunication	3
+speech coding	vector quantization	3
+speech coding	vocoder	3
+speech technology	communication aids	3
+speech technology	language technology	3
+speech technology	speech interface guideline	3
+speech technology	speech processing	3
+speech technology	speech technology (magazine)	3
+neurocomputational speech processing	speech production	3
+neurocomputational speech processing	speech perception	3
+neurocomputational speech processing	computational neuroscience	3
+neurocomputational speech processing	articulatory synthesis	3
+neurocomputational speech processing	auditory feedback	3
+native-language identification	crosslinguistic influence	2
+native-language identification	foreign language writing aid	2
+native-language identification	computer-assisted language learning	2
+native-language identification	language education	2
+native-language identification	natural language processing	2
+native-language identification	language transfer	2
+latent semantic indexing	coh-metrix	2
+latent semantic indexing	compound term processing	2
+latent semantic indexing	distributional semantics	2
+latent semantic indexing	explicit semantic analysis	2
+latent semantic indexing	latent semantic mapping	2
+latent semantic indexing	latent semantic structure indexing	2
+latent semantic indexing	principal components analysis	2
+latent semantic indexing	probabilistic latent semantic analysis	2
+latent semantic indexing	spamdexing	2
+latent semantic indexing	word vector	2
+latent semantic indexing	topic model	2
+latent semantic indexing	latent dirichlet allocation	2
+language education	american council on the teaching of foreign languages	3
+language education	eikaiwa school	3
+language education	error analysis (linguistics)	3
+language education	foreign language anxiety	3
+language education	foreign language writing aid	3
+language education	foreign language reading aid	3
+language education	glossary of language teaching terms and ideas	3
+language education	language education by region	3
+language education	language festival	3
+language education	language mooc	3
+language education	language policy	3
+language education	lexicography	3
+language education	linguistic rights	3
+language education	monolingual learner's dictionary	3
+language education	self access language learning centers	3
+language education	tandem language learning	3
+language transfer	calque	3
+language transfer	code-switching	3
+language transfer	contrastive rhetoric	3
+language transfer	interlanguage	3
+language transfer	language contact	3
+language transfer	loanword	3
+language transfer	macaronic language	3
+language transfer	mixed language	3
+language transfer	multi-competence	3
+language transfer	native-language identification	3
+language transfer	phono-semantic matching	3
+language transfer	second language acquisition	3
+language transfer	sprachbund	3
+language transfer	translation	3
+computer-assisted language learning	anki (software)	3
+computer-assisted language learning	babbel	3
+computer-assisted language learning	the alpheios project	3
+computer-assisted language learning	community language learning	3
+computer-assisted language learning	duolingo	3
+computer-assisted language learning	intelligent computer-assisted language instruction	3
+computer-assisted language learning	glossary of language teaching terms and ideas	3
+computer-assisted language learning	language acquisition	3
+computer-assisted language learning	language education	3
+computer-assisted language learning	language exchange	3
+computer-assisted language learning	language immersion	3
+computer-assisted language learning	language mooc	3
+computer-assisted language learning	online learning community	3
+computer-assisted language learning	second language acquisition	3
+computer-assisted language learning	smigin	3
+computer-assisted language learning	tandem language learning	3
+computer-assisted language learning	telecollaboration	3
+computer-assisted language learning	virtual exchange	3
+computer-assisted language learning	virtual world language learning	3
+computer-assisted language learning	social media language learning	3
+topic model	explicit semantic analysis	3
+topic model	latent semantic analysis	3
+topic model	latent dirichlet allocation	3
+topic model	hierarchical dirichlet process	3
+topic model	non-negative matrix factorization	3
+topic model	mallet (software project)	3
+topic model	gensim	3
+latent dirichlet allocation	variational bayesian methods	3
+latent dirichlet allocation	pachinko allocation	3
+latent dirichlet allocation	tf-idf	3
+latent dirichlet allocation	infer.net	3
+word vector	brown clustering	3
+word vector	distributional–relational database	3
+spamdexing	adversarial information retrieval	3
+spamdexing	index (search engine)	3
+spamdexing	trustrank	3
+spamdexing	web scraping	3
+spamdexing	microsoft smartscreen	3
+spamdexing	windows defender	3
+probabilistic latent semantic analysis	compound term processing	3
+probabilistic latent semantic analysis	pachinko allocation	3
+probabilistic latent semantic analysis	vector space model	3
+principal components analysis	correspondence analysis	3
+principal components analysis	multiple correspondence analysis	3
+principal components analysis	factor analysis of mixed data	3
+principal components analysis	canonical correlation	3
+principal components analysis	cur matrix approximation	3
+principal components analysis	detrended correspondence analysis	3
+principal components analysis	dynamic mode decomposition	3
+principal components analysis	eigenface	3
+principal components analysis	v:exploratory factor analysis	3
+principal components analysis	factorial code	3
+principal components analysis	functional principal component analysis	3
+principal components analysis	geometric data analysis	3
+principal components analysis	independent component analysis	3
+principal components analysis	kernel pca	3
+principal components analysis	l1-norm principal component analysis	3
+principal components analysis	low-rank approximation	3
+principal components analysis	matrix decomposition	3
+principal components analysis	non-negative matrix factorization	3
+principal components analysis	nonlinear dimensionality reduction	3
+principal components analysis	oja's rule	3
+principal components analysis	point distribution model	3
+principal components analysis	b:statistics/multivariate data analysis/principal component analysis	3
+principal components analysis	principal component regression	3
+principal components analysis	singular spectrum analysis	3
+principal components analysis	singular value decomposition	3
+principal components analysis	sparse pca	3
+principal components analysis	transform coding	3
+principal components analysis	weighted least squares	3
+latent semantic mapping	latent semantic analysis	3
+explicit semantic analysis	topic model	3
+coh-metrix	l2 syntactic complexity analyzer	3
+compound term processing	concept searching limited	3
+compound term processing	enterprise search	3
+compound term processing	information retrieval	3
+distributional semantics	conceptual space	3
+distributional semantics	co-occurrence	3
+distributional semantics	distributional–relational database	3
+distributional semantics	gensim	3
+distributional semantics	phraseme	3
+distributional semantics	random indexing	3
+distributional semantics	sentence embedding	3
+distributional semantics	statistical semantics	3
+distributional semantics	word2vec	3
+distributional semantics	word embedding	3
+distributional semantics	scott deerwester	3
+distributional semantics	susan dumais	3
+distributional semantics	j. r. firth	3
+distributional semantics	george furnas	3
+distributional semantics	zellig harris	3
+distributional semantics	richard hirschman	3
+distributional semantics	thomas landauer	3
+distributional semantics	magnus sahlgren	3
+distributional semantics	hinrich schütze	3
+foreign language writing aid	computer-assisted language learning	3
+foreign language writing aid	foreign-language reading aid	3
+foreign language writing aid	language education	3
+foreign language writing aid	second language	3
+foreign language reading aid	anki (software)	2
+foreign language reading aid	babbel	2
+foreign language reading aid	the alpheios project	2
+foreign language reading aid	community language learning	2
+foreign language reading aid	duolingo	2
+foreign language reading aid	intelligent computer-assisted language instruction	2
+foreign language reading aid	glossary of language teaching terms and ideas	2
+foreign language reading aid	language acquisition	2
+foreign language reading aid	language education	2
+foreign language reading aid	language exchange	2
+foreign language reading aid	language immersion	2
+foreign language reading aid	language mooc	2
+foreign language reading aid	online learning community	2
+foreign language reading aid	second language acquisition	2
+foreign language reading aid	smigin	2
+foreign language reading aid	tandem language learning	2
+foreign language reading aid	telecollaboration	2
+foreign language reading aid	virtual exchange	2
+foreign language reading aid	virtual world language learning	2
+foreign language reading aid	social media language learning	2
+second language	foreign language writing aid	3
+second language	foreign language reading aid	3
+second language	computer-assisted language learning	3
+second language	diglossia	3
+second language	language education	3
+foreign-language reading aid	anki (software)	3
+foreign-language reading aid	babbel	3
+foreign-language reading aid	the alpheios project	3
+foreign-language reading aid	community language learning	3
+foreign-language reading aid	duolingo	3
+foreign-language reading aid	intelligent computer-assisted language instruction	3
+foreign-language reading aid	glossary of language teaching terms and ideas	3
+foreign-language reading aid	language acquisition	3
+foreign-language reading aid	language education	3
+foreign-language reading aid	language exchange	3
+foreign-language reading aid	language immersion	3
+foreign-language reading aid	language mooc	3
+foreign-language reading aid	online learning community	3
+foreign-language reading aid	second language acquisition	3
+foreign-language reading aid	smigin	3
+foreign-language reading aid	tandem language learning	3
+foreign-language reading aid	telecollaboration	3
+foreign-language reading aid	virtual exchange	3
+foreign-language reading aid	virtual world language learning	3
+foreign-language reading aid	social media language learning	3
+social media language learning	computer mediated communication	3
+social media language learning	connectivism (learning theory)	3
+social media language learning	mmorpg	3
+social media language learning	networked learning	3
+social media language learning	social constructionism	3
+social media language learning	social constructivism	3
+virtual world language learning	adult education	3
+virtual world language learning	andragogy	3
+virtual world language learning	andragogical learning theory	3
+virtual world language learning	blended learning	3
+virtual world language learning	computer-based testing	3
+virtual world language learning	computer-assisted language learning	3
+virtual world language learning	distance education	3
+virtual world language learning	e-learning	3
+virtual world language learning	heutagogy	3
+virtual world language learning	hybrid course	3
+virtual world language learning	learning management system	3
+virtual world language learning	microlearning	3
+virtual world language learning	microlecture	3
+virtual world language learning	m-learning	3
+virtual world language learning	online learning community	3
+virtual world language learning	online music education	3
+virtual world language learning	virtual education	3
+virtual world language learning	web-based simulation	3
+second language acquisition	bilingualism (neurology)	3
+second language acquisition	dynamic approach to second language development	3
+second language acquisition	international auxiliary language	3
+second language acquisition	language learning aptitude	3
+second language acquisition	language acquisition	3
+second language acquisition	language complexity	3
+second language acquisition	native-language identification	3
+second language acquisition	psycholinguistics	3
+second language acquisition	second-language attrition	3
+second language acquisition	sociolinguistics	3
+second language acquisition	theories of second-language acquisition	3
+second language acquisition	vocabulary learning	3
+online learning community	community language learning	3
+online learning community	community of practice	3
+online learning community	massive open online course	3
+online learning community	virtual education	3
+online learning community	university of the people	3
+language immersion	bilingual education	3
+language immersion	english village	3
+language immersion	french immersion	3
+language immersion	gaelscoileanna	3
+language immersion	kura kaupapa māori	3
+language immersion	multilingualism	3
+language immersion	native language immersion student achievement act	3
+language exchange	language education	3
+language exchange	community language learning	3
+language exchange	language immersion	3
+language exchange	language acquisition	3
+language exchange	communicative language teaching	3
+language exchange	online learning community	3
+intelligent computer-assisted language instruction	artificial intelligence	3
+intelligent computer-assisted language instruction	computer-assisted language learning	3
+intelligent computer-assisted language instruction	educational technology	3
+intelligent computer-assisted language instruction	intelligent tutoring system	3
+intelligent computer-assisted language instruction	language acquisition	3
+intelligent computer-assisted language instruction	language education	3
+intelligent computer-assisted language instruction	natural language processing	3
+intelligent computer-assisted language instruction	second-language acquisition	3
+glossary of language teaching terms and ideas	language education	3
+glossary of language teaching terms and ideas	computer-assisted language learning	3
+glossary of language teaching terms and ideas	monolingual learners' dictionaries	3
+glossary of language teaching terms and ideas	english language	3
+glossary of language teaching terms and ideas	grammar	3
+glossary of language teaching terms and ideas	language	3
+glossary of language teaching terms and ideas	learning by teaching	3
+glossary of language teaching terms and ideas	:de:ldl	3
+glossary of language teaching terms and ideas	linguistics	3
+glossary of language teaching terms and ideas	second language	3
+glossary of language teaching terms and ideas	second language acquisition	3
+glossary of language teaching terms and ideas	common european framework of reference for languages	3
+glossary of language teaching terms and ideas	american council on the teaching of foreign languages	3
+glossary of language teaching terms and ideas	english language learning and teaching	3
+glossary of language teaching terms and ideas	unicert	3
+language acquisition	chunking (psychology)	3
+language acquisition	creole language	3
+language acquisition	evolutionary linguistics	3
+language acquisition	evolutionary psychology of language	3
+language acquisition	fis phenomenon	3
+language acquisition	foxp2	3
+language acquisition	gestures in language acquisition	3
+language acquisition	glossary of language teaching terms and ideas	3
+language acquisition	identity and language learning	3
+language acquisition	ke family	3
+language acquisition	language acquisition by deaf children	3
+language acquisition	language attrition	3
+language acquisition	language transfer	3
+language acquisition	metalinguistic awareness	3
+language acquisition	natural-language processing	3
+language acquisition	non-native speech database	3
+language acquisition	origin of language	3
+language acquisition	passive speaker (language)	3
+language acquisition	second-language attrition	3
+language acquisition	spoken language	3
+community language learning	language education	3
+community language learning	language mooc	3
+duolingo	babbel	3
+duolingo	computer-assisted language learning	3
+duolingo	gamification	3
+duolingo	language education	3
+duolingo	language pedagogy	3
+babbel	duolingo	3
+babbel	language education	3
+babbel	computer-assisted language learning	3
+anki (software)	computer-assisted language learning	3
+zellig harris	distributionalism	3
+zellig harris	leonard bloomfield	3
+j. r. firth	phonestheme	3
+j. r. firth	systemic linguistics	3
+word embedding	brown clustering	3
+word embedding	distributional–relational database	3
+statistical semantics	co-occurrence	3
+statistical semantics	computational linguistics	3
+statistical semantics	information retrieval	3
+statistical semantics	latent semantic analysis	3
+statistical semantics	latent semantic indexing	3
+statistical semantics	semantic analytics	3
+statistical semantics	semantic similarity	3
+statistical semantics	statistical natural language processing	3
+statistical semantics	text corpus	3
+statistical semantics	text mining	3
+statistical semantics	web mining	3
+sentence embedding	distributional semantics	3
+sentence embedding	word embedding	3
+phraseme	siamese twins (linguistics)	3
+phraseme	technical term	3
+co-occurrence	distributional hypothesis	3
+co-occurrence	statistical semantics	3
+co-occurrence	co-occurrence matrix	3
+co-occurrence	co-occurrence networks	3
+co-occurrence	similarity measure	3
+co-occurrence	dice coefficient	3
+conceptual space	categorical perception	3
+conceptual space	cognitive architecture	3
+conceptual space	color space	3
+conceptual space	commonsense reasoning	3
+conceptual space	conceptual dependency theory	3
+conceptual space	distributional semantics	3
+conceptual space	face space	3
+conceptual space	formal concept analysis	3
+conceptual space	frame semantics (linguistics)	3
+conceptual space	global workspace theory	3
+conceptual space	image schema	3
+conceptual space	phonetic space	3
+conceptual space	semantic space	3
+conceptual space	similarity (philosophy)	3
+conceptual space	state space	3
+conceptual space	vector space model	3
+conceptual space	visual space	3
+deep learning	applications of artificial intelligence	2
+deep learning	comparison of deep learning software	2
+deep learning	compressed sensing	2
+deep learning	differentiable programming	2
+deep learning	echo state network	2
+deep learning	liquid state machine	2
+deep learning	reservoir computing	2
+deep learning	sparse coding	2
+structured english	natural language programming	3
+structured english	self-documenting code	3
+structured english	structured programming	3
+structured english	pseudocode	3
+structured english	decision tree	3
+structured english	decision table	3
+structured english	attempto controlled english	3
+controlled vocabulary	authority control	3
+controlled vocabulary	controlled natural language	3
+controlled vocabulary	defining vocabulary	3
+controlled vocabulary	ims vdex	3
+controlled vocabulary	named-entity recognition	3
+controlled vocabulary	nomenclature	3
+controlled vocabulary	ontology (computer science)	3
+controlled vocabulary	terminology	3
+controlled vocabulary	universal data element framework	3
+controlled vocabulary	vocabulary-based transformation	3
+reservoir computing	deep learning	3
+reservoir computing	extreme learning machine	3
+sparse coding	artificial neural network	3
+sparse coding	autoencoder	3
+sparse coding	biological neuron model	3
+sparse coding	binding problem	3
+sparse coding	cognitive map	3
+sparse coding	deep learning	3
+sparse coding	feature integration theory	3
+sparse coding	grandmother cell	3
+sparse coding	models of neural computation	3
+sparse coding	neural correlate	3
+sparse coding	neural decoding	3
+sparse coding	neural oscillation	3
+sparse coding	sparse distributed memory	3
+sparse coding	vector quantization	3
+echo state network	liquid-state machine	3
+echo state network	reservoir computing	3
+liquid state machine	echo state network	3
+liquid state machine	recurrent neural network	3
+liquid state machine	reservoir computing	3
+liquid state machine	self-organizing map	3
+differentiable programming	differentiable function	3
+differentiable programming	machine learning	3
+comparison of deep learning software	comparison of numerical-analysis software	3
+comparison of deep learning software	comparison of statistical packages	3
+compressed sensing	noiselet	3
+compressed sensing	sparse approximation	3
+compressed sensing	sparse coding	3
+compressed sensing	low-density parity-check code	3
+compressed sensing	compressed sensing in speech signals	3
+knowledge representation and reasoning	alphabet of human thought	3
+knowledge representation and reasoning	belief revision	3
+knowledge representation and reasoning	chunking (psychology)	3
+knowledge representation and reasoning	commonsense knowledge base	3
+knowledge representation and reasoning	conceptual graph	3
+knowledge representation and reasoning	datr	3
+knowledge representation and reasoning	logico-linguistic modeling	3
+knowledge representation and reasoning	personal knowledge base	3
+knowledge representation and reasoning	knowledge graph	3
+knowledge representation and reasoning	knowledge management	3
+knowledge representation and reasoning	semantic technology	3
+knowledge representation and reasoning	valuation-based system	3
+constructed language	interlinguistics	3
+constructed language	damin	3
+constructed language	eskayan	3
+constructed language	idioglossia	3
+constructed language	cant (language)	3
+constructed language	iso, sil, and bcp language codes for constructed languages	3
+constructed language	artificial script	3
+constructed language	langmaker	3
+constructed language	language construction kit	3
+constructed language	language game	3
+constructed language	knowledge representation	3
+constructed language	language translation	3
+constructed language	metalanguage	3
+constructed language	universal grammar	3
+constructed language	mystical language	3
+constructed language	glossolalia	3
+constructed language	language of the birds	3
+constructed language	artificial language	3
+constructed language	june and jennifer gibbons	3
+constructed language	nicaraguan sign language	3
+constructed language	origin of language	3
+constructed language	pidgin	3
+constructed language	poto and cabengo	3
+constructed language	linguistic determinism	3
+constructed language	linguistic relativity	3
+constructed language	pasigraphy	3
+constructed language	universal language	3
+constructed language	basic english	3
+computer-assisted translation	comparison of computer-assisted translation tools	3
+computer-assisted translation	computational linguistics	3
+computer-assisted translation	computer-assisted reviewing	3
+computer-assisted translation	fuzzy matching	3
+computer-assisted translation	translation	3
+computer-assisted translation	computer-assisted interpreting	3
+concept searching limited	compound term processing	3
+concept searching limited	enterprise search	3
+concept searching limited	full text search	3
+concept searching limited	information retrieval	3
+concept searching limited	concept search	3
