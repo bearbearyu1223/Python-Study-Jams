@@ -1,10 +1,10 @@
 import networkx as nx
 import pandas as pd
-import numpy as np
 import random
 import pprint
 from gensim.models import Word2Vec
 import warnings
+
 warnings.filterwarnings('ignore')
 
 
@@ -42,7 +42,9 @@ def run():
     pprint.pprint("Number of Nodes: {}".format(len(g)))
     random_walks = get_random_walks_from_all_nodes(g=g, path_length=5)
     model = train_skip_gram_model(random_walks=random_walks, progress_per=2)
-    pprint.pprint('Most similar page to {} is {}'.format('google assistant', model.wv.similar_by_word('google assistant')))
+    pprint.pprint(
+        'Most similar page to {} is {}'.format('google assistant', model.wv.similar_by_word('google assistant')))
+
 
 if __name__ == "__main__":
     run()
