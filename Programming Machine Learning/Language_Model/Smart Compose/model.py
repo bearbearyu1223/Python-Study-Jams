@@ -12,10 +12,10 @@ class Encoder(tf.keras.layers.Layer):
 
     def __init__(self, vocab_size: int, embedding_dim: int, units: int, **kwargs):
         """
-        :param vocab_size:
-        :param embedding_dim:
-        :param units:
-        :param dropout:
+        :param vocab_size: int
+        :param embedding_dim: int
+        :param units: int
+        :param dropout: float
         :param kwargs:
         """
         super(Encoder, self).__init__()
@@ -29,8 +29,8 @@ class Encoder(tf.keras.layers.Layer):
 
     def call(self, inputs: np.ndarray) -> (tf.Tensor, tf.Tensor, tf.Tensor):
         """
-        :param inputs:
-        :return:
+        :param inputs: np.ndarray
+        :return: (tf.Tensor, tf.Tensor, tf.Tensor)
         """
         x = self.embedding(inputs=inputs)
         encoder_outputs, f_state_h, f_state_c, b_state_h, b_state_c = self.bi_lstm(x)
@@ -48,10 +48,10 @@ class Decoder(tf.keras.layers.Layer):
     def __init__(self, vocab_size: int, embedding_dim: int, units: int,
                  dropout: float, **kwargs):
         """
-        :param vocab_size:
-        :param embedding_dim:
-        :param units:
-        :param dropout:
+        :param vocab_size: int
+        :param embedding_dim: int
+        :param units: int
+        :param dropout: float
         :param kwargs:
         """
         super(Decoder, self).__init__()
@@ -59,7 +59,8 @@ class Decoder(tf.keras.layers.Layer):
         self.embedding_dim = embedding_dim
         self.dec_units = units * 2
         self.embedding = Embedding(input_dim=vocab_size, output_dim=embedding_dim, name="Decoder_Embedding")
-        self.lstm = LSTM(units=self.dec_units, return_sequences=True, return_state=True, activation='relu', name="Decoder_LSTM")
+        self.lstm = LSTM(units=self.dec_units, return_sequences=True, return_state=True, activation='relu',
+                         name="Decoder_LSTM")
         self.dropout_rate = dropout
         self.dropout = Dropout(rate=self.dropout_rate)
         self.dense_1 = Dense(units, activation="relu")
@@ -67,9 +68,9 @@ class Decoder(tf.keras.layers.Layer):
 
     def call(self, inputs: np.ndarray, enc_hidden: tf.Tensor, enc_cell: tf.Tensor) -> tf.Tensor:
         """
-        :param inputs:
-        :param enc_hidden:
-        :param enc_cell:
+        :param inputs: np.ndarray
+        :param enc_hidden: tf.Tensor
+        :param enc_cell: tf.Tensor
         :return:
         """
         x = self.embedding(inputs=inputs)
@@ -88,11 +89,11 @@ class EncoderDecoderModel(tf.keras.models.Model):
     def __init__(self, input_vocab_size: int, output_vocab_size: int, embedding_dim: int, units: int, dropout: float,
                  **kwargs):
         """
-        :param input_vocab_size:
-        :param output_vocab_size:
-        :param embedding_dim:
-        :param units:
-        :param dropout:
+        :param input_vocab_size: int
+        :param output_vocab_size: int
+        :param embedding_dim: int
+        :param units: int
+        :param dropout: float
         :param kwargs:
         """
         super(EncoderDecoderModel, self).__init__()
@@ -105,8 +106,8 @@ class EncoderDecoderModel(tf.keras.models.Model):
 
     def call(self, inputs: []) -> tf.Tensor:
         """
-        :param inputs:
-        :return:
+        :param inputs: list
+        :return: tf.Tensor
         """
         # Inputs will contain encoder input and decoder input
         encoder_inputs, decoder_inputs = inputs[0], inputs[1]
@@ -118,8 +119,8 @@ class EncoderDecoderModel(tf.keras.models.Model):
         return outputs
 
 
-def run(input_vocab_size=10000, output_vocab_size=10000, embedding_dim=300, units=64, dropout=0.2,
-        name="Encoder_Decoder_Model"):
+def test_run(input_vocab_size=10000, output_vocab_size=10000, embedding_dim=300, units=64, dropout=0.2,
+             name="Encoder_Decoder_Model"):
     model = EncoderDecoderModel(input_vocab_size=input_vocab_size, output_vocab_size=output_vocab_size,
                                 embedding_dim=embedding_dim, units=units, dropout=dropout, name=name)
     input_seq_len = 50
@@ -132,7 +133,8 @@ def run(input_vocab_size=10000, output_vocab_size=10000, embedding_dim=300, unit
     model.build(input_shape=[encoder_inputs.shape, decoder_inputs.shape])
     model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["sparse_categorical_crossentropy"])
     pprint(model.summary())
-    history = model.fit([encoder_inputs, decoder_inputs], target, batch_size=batch_size, epochs=10, validation_split=0.2)
+    history = model.fit([encoder_inputs, decoder_inputs], target, batch_size=batch_size, epochs=10,
+                        validation_split=0.2)
     plt.plot(history.history['loss'], label="Training loss")
     plt.plot(history.history['val_loss'], label="Validation loss")
     plt.legend()
@@ -140,4 +142,4 @@ def run(input_vocab_size=10000, output_vocab_size=10000, embedding_dim=300, unit
 
 
 if __name__ == "__main__":
-    run()
+    test_run()
