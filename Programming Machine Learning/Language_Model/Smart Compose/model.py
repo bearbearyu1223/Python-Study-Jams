@@ -86,11 +86,11 @@ class EncoderDecoderModel(tf.keras.models.Model):
     EncoderDecoder: encoder -> decoder
     """
 
-    def __init__(self, input_vocab_size: int, output_vocab_size: int, embedding_dim: int, units: int, dropout: float,
+    def __init__(self, input_vocab_size: int, target_vocab_size: int, embedding_dim: int, units: int, dropout: float,
                  **kwargs):
         """
         :param input_vocab_size: int
-        :param output_vocab_size: int
+        :param target_vocab_size: int
         :param embedding_dim: int
         :param units: int
         :param dropout: float
@@ -98,7 +98,7 @@ class EncoderDecoderModel(tf.keras.models.Model):
         """
         super(EncoderDecoderModel, self).__init__()
         self.encoder = Encoder(vocab_size=input_vocab_size, embedding_dim=embedding_dim, units=units, name="Encoder")
-        self.decoder = Decoder(vocab_size=output_vocab_size, embedding_dim=embedding_dim, units=units, name="Decoder",
+        self.decoder = Decoder(vocab_size=target_vocab_size, embedding_dim=embedding_dim, units=units, name="Decoder",
                                dropout=dropout)
 
     def build(self, input_shape):
@@ -121,7 +121,7 @@ class EncoderDecoderModel(tf.keras.models.Model):
 
 def test_run(input_vocab_size=10000, output_vocab_size=10000, embedding_dim=300, units=64, dropout=0.2,
              name="Encoder_Decoder_Model"):
-    model = EncoderDecoderModel(input_vocab_size=input_vocab_size, output_vocab_size=output_vocab_size,
+    model = EncoderDecoderModel(input_vocab_size=input_vocab_size, target_vocab_size=output_vocab_size,
                                 embedding_dim=embedding_dim, units=units, dropout=dropout, name=name)
     input_seq_len = 50
     output_seq_len = 50

@@ -87,17 +87,27 @@ np.ndarray, np.ndarray):
             temp.append(word2idx[token])
         input_data.append(temp)
 
-    target = []
+    teacher_data = []
     for y in y_train.tolist():
         temp = []
         for token in y.split():
             temp.append(word2idx[token])
-        target.append(temp)
+        teacher_data.append(temp)
 
-    max_len_input, max_len_output = max(len(i) for i in input_data), max(len(t) for t in target)
+    max_len_input, max_len_output = max(len(i) for i in input_data), max(len(t) for t in teacher_data)
     input_data = pad_sequences(input_data, maxlen=max_len_input, padding="post", value=0)
-    target = pad_sequences(target, maxlen=max_len_output, padding="post", value=0)
-    return input_data, target
+    teacher_data = pad_sequences(teacher_data, maxlen=max_len_output, padding="post", value=0)
+
+    target_data = [[teacher_data[n][i + 1] for i in range(len(teacher_data[n]) - 1)] for n in range(len(teacher_data))]
+    target_data = pad_sequences(target_data, maxlen=max_len_output, padding="post", value=0)
+    target_data = target_data.reshape((target_data.shape[0], target_data.shape[1]))
+
+    p = np.random.permutation(len(input_data))
+    input_data = input_data[p]
+    teacher_data = teacher_data[p]
+    target_data = target_data[p]
+
+    return input_data, teacher_data, target_data
 
 
 def convert_idx_to_sentences(X: np.ndarray, idx2word: dict) -> []:
@@ -108,20 +118,19 @@ def convert_idx_to_sentences(X: np.ndarray, idx2word: dict) -> []:
     """
     token_list = []
     for idx in X:
-        if idx in idx2word.keys():
+        if idx in idx2word.keys() and idx != 0:
             token_list.append(idx2word.get(idx))
-        else:
-            token_list.append(UNK_TOKEN)
     return " ".join(token_list)
 
 
 def test_main():
     X_train, X_test, y_train, y_test = generate_train_test_dataset()
     word2idx, idx2word, vocab = generate_vocab_dict()
-    X, y = generate_train_dataset_for_model(X_train=X_train, y_train=y_train, word2idx=word2idx)
-    for i, t in zip(X, y):
+    input_data, teacher_data, target_data = generate_train_dataset_for_model(X_train=X_train, y_train=y_train, word2idx=word2idx)
+    for i, t, r in zip(input_data, teacher_data, target_data):
         print("Input Seq: {}".format(convert_idx_to_sentences(i, idx2word)))
-        print("Target Seq: {}".format(convert_idx_to_sentences(t, idx2word)))
+        print("Teacher Seq: {}".format(convert_idx_to_sentences(t, idx2word)))
+        print("Target Seq: {}".format(convert_idx_to_sentences(r, idx2word)))
 
 
 if __name__ == "__main__":
