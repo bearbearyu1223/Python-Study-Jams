@@ -43,6 +43,6 @@ Epoch 00024: early stopping
 'predict seq : you want to'
 'input seq : follow these'
 'predict seq : steps so you'
-
-
 ```
+Also see sample train and validation loss from the training history below:
+![image info](train_history.png)
