@@ -153,12 +153,13 @@ if __name__ == "__main__":
     plt.savefig("train_history.png")
 
     test_input_txt_seq = ["i have", "we can", "please mark", "follow these"]
-    pred_steps = 4
+    predicted_steps = 4
     for i in test_input_txt_seq:
         prediction = get_predicted_txt_seq(enc_dec_model=trainer.model, word2idx=word2idx, idx2word=idx2word,
                                            output_max_length=trainer.config.max_len_output, input_seq=i)
         pprint("input seq : {}".format(i))
-        if len(prediction) <= pred_steps:
-            pprint("predict seq : {}".format(prediction))
+        predicted_tokens = prediction.split()
+        if len(predicted_tokens) <= predicted_steps:
+            pprint("predict seq : {}".format(" ".join(predicted_tokens[1:])))
         else:
-            pprint("predict seq : {}".format(prediction[1:pred_steps]))
+            pprint("predict seq : {}".format(" ".join(predicted_tokens[1:predicted_steps])))
