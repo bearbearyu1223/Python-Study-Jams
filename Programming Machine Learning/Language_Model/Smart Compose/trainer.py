@@ -23,7 +23,7 @@ def get_predicted_txt_seq(enc_dec_model: EncoderDecoderModel, output_max_length:
     # Get output from encoder
     input_seq = START_TOKEN + SPACE + input_seq + SPACE + END_TOKEN
     input_seq = convert_sentences_to_idx(word2idx, input_sentence=input_seq)
-    input_seq = pad_sequences([input_seq], maxlen=max_len_output, padding="post", value=0)
+    input_seq = pad_sequences([input_seq], maxlen=output_max_length, padding="post", value=0)
     _, enc_hidden, enc_cell = enc_dec_model.layers[0](input_seq)
 
     # Boundary case for decoder
