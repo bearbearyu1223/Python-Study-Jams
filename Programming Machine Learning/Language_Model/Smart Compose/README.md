@@ -1,4 +1,8 @@
-### Smart Composer (QuickStart)
+### Smart Composer (QuickStart) 
+<a href="https://github.com/bearbearyu1223/Python-Study-Jams/blob/342c9d30f59fad43edb30820c75d044e3533b9ae/Programming%20Machine%20Learning/Language_Model/Smart%20Compose/smart_composer.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 1. Clone this Repo to your local directory 
 2. Create a Conda Env using the `env.yml` file
 ```commandline
@@ -46,10 +50,8 @@ Epoch 00024: early stopping
 ```
 Also see sample train and validation loss from the training history below:
 ![image info](train_history.png)
-5. Sample Notebook
 
-<a href="https://github.com/bearbearyu1223/Python-Study-Jams/blob/342c9d30f59fad43edb30820c75d044e3533b9ae/Programming%20Machine%20Learning/Language_Model/Smart%20Compose/smart_composer.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
+
+
 
 
