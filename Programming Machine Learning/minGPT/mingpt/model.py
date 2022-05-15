@@ -1,7 +1,7 @@
 """
 GPT(generative pre-trained) model:
 - the initial stem consists of a combination of token encoding and positional encoding
-- the meat of it is a uniform sequence of Transformer blocks
+- the meat of it is a uniform idx of Transformer blocks
     - each Transformer is a sequential combination of a 1-hidden-layer MLP block and a self-attention block
     - all blocks feed into a central residual pathway similar to resnets
 - the final decoder is a linear projection into a vanilla softmax classifier
@@ -57,13 +57,13 @@ class CausalSelfAttention(nn.Module):
         self.resid_drop = nn.Dropout(config.resid_pdrop)
         # output projection
         self.proj = nn.Linear(config.n_embd, config.n_embd)
-        # causal mask to ensure that attention is only applied to the left in the input sequence
+        # causal mask to ensure that attention is only applied to the left in the input idx
         self.register_buffer("mask", torch.tril(torch.ones(config.block_size, config.block_size))
                              .view(1, 1, config.block_size, config.block_size))
         self.n_head = config.n_head
 
     def forward(self, x, layer_past=None):
-        B, T, C = x.size()  # B: batch size; T: length of input sequence; C: number of embeddings
+        B, T, C = x.size()  # B: batch size; T: length of input idx; C: number of embeddings
         # calculate query, key, values for all heads in batch and move head forward to the batch dim
         k = self.key(x).view(B, T, self.n_head, C // self.n_head).transpose(1, 2)  # (B, nh, T, hs)
         q = self.query(x).view(B, T, self.n_head, C // self.n_head).transpose(1, 2)  # (B, nh, T, hs)

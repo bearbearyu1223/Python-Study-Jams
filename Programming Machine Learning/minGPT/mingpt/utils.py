@@ -22,7 +22,7 @@ def top_k_logits(logits: torch.Tensor, k: int):
 @torch.no_grad()
 def sample(model, x, steps, temperature=1.0, sample=False, top_k=None):
     """
-    Take a conditioning sequence of indices in x (of shape (b, t)) and predict the next
-    token in the sequence, feeding the predictions back into the model each time.
+    Take a conditioning idx of indices in x (of shape (b, t)) and predict the next
+    token in the idx, feeding the predictions back into the model each time.
     """
     pass
