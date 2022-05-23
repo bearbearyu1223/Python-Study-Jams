@@ -1,22 +1,24 @@
 import cv2
 import os
-from transformers import DistilBertTokenizer
+from transformers import DistilBertTokenizer, PreTrainedTokenizer
 import torch
 from torch.utils.data import Dataset
 import albumentations as A
 import config as CFG
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 class CLIPDataset(Dataset):
-    def __init__(self, image_filenames, captions, tokenizer, transform):
+    def __init__(self, image_filenames: np.ndarray, captions: np.ndarray, tokenizer: PreTrainedTokenizer,
+                 transform: A.Compose):
         self.image_filenames = image_filenames
         self.captions = list(captions)
         self.encoded_captions = tokenizer(self.captions, padding=True, truncation=True, max_length=CFG.max_length)
         self.transform = transform
 
-    def __getitem__(self, idx):
+    def __getitem__(self, idx: int) -> dict:
         item = {
             key: torch.tensor(values[idx]) for key, values in self.encoded_captions.items()
         }
@@ -34,7 +36,7 @@ class CLIPDataset(Dataset):
         return len(self.captions)
 
 
-def get_transform():
+def get_transform() -> A.Compose:
     transform = A.Compose(
         [
             A.Resize(CFG.size, CFG.size, always_apply=True),
@@ -45,7 +47,7 @@ def get_transform():
 
 
 if __name__ == "__main__":
-    df = pd.read_csv(os.getcwd()+"/" + CFG.captions_path + "/captions.txt", sep=",")
+    df = pd.read_csv(os.getcwd() + "/" + CFG.captions_path + "/captions.txt", sep=",")
     image_filenames = df['image'].values
     captions = df['caption'].values
     transform = get_transform()
@@ -57,4 +59,3 @@ if __name__ == "__main__":
     plt.imshow(sample['raw_img'])
     plt.title(sample['caption'])
     plt.show()
-
