@@ -12,11 +12,12 @@ import numpy as np
 
 class CLIPDataset(Dataset):
     def __init__(self, image_filenames: np.ndarray, captions: np.ndarray, tokenizer: PreTrainedTokenizer,
-                 transform: A.Compose):
+                 transform: A.Compose, enable_debug=False):
         self.image_filenames = image_filenames
         self.captions = list(captions)
         self.encoded_captions = tokenizer(self.captions, padding=True, truncation=True, max_length=CFG.max_length)
         self.transform = transform
+        self.enable_debug = enable_debug
 
     def __getitem__(self, idx: int) -> dict:
         item = {
@@ -24,7 +25,8 @@ class CLIPDataset(Dataset):
         }
 
         image = cv2.imread(f"{os.getcwd()}/{CFG.image_path}/{self.image_filenames[idx]}")
-        item['raw_img'] = image
+        if self.enable_debug:
+            item['raw_img'] = image
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         image = self.transform(image=image)['image']
         item['image'] = torch.tensor(image).permute(2, 0, 1).float()
@@ -36,7 +38,7 @@ class CLIPDataset(Dataset):
         return len(self.captions)
 
 
-def get_transform() -> A.Compose:
+def get_transform():
     transform = A.Compose(
         [
             A.Resize(CFG.size, CFG.size, always_apply=True),
@@ -53,8 +55,8 @@ if __name__ == "__main__":
     transform = get_transform()
     tokenizer = DistilBertTokenizer.from_pretrained(CFG.text_tokenizer)
     clip_dataset = CLIPDataset(image_filenames=image_filenames, captions=captions, tokenizer=tokenizer,
-                               transform=transform)
-    sample = clip_dataset[0]
+                               transform=transform, enable_debug=True)
+    sample = clip_dataset[10]
     print("Size of the transformed image: {}".format(sample['image'].size()))
     plt.imshow(sample['raw_img'])
     plt.title(sample['caption'])

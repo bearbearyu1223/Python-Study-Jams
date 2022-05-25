@@ -1,5 +1,4 @@
 import torch
-import os
 debug = True
 image_path = "Datasets/Images"
 captions_path = "Datasets"
