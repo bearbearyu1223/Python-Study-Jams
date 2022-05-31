@@ -8,6 +8,7 @@ import config as CFG
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+from utils import preprocess_dataset
 
 
 class CLIPDataset(Dataset):
@@ -49,7 +50,8 @@ def get_transform():
 
 
 if __name__ == "__main__":
-    df = pd.read_csv(os.getcwd() + "/" + CFG.captions_path + "/captions.txt", sep=",")
+    preprocess_dataset()
+    df = pd.read_csv(os.getcwd() + "/" + CFG.captions_path + "/captions.csv")
     image_filenames = df['image'].values
     captions = df['caption'].values
     transform = get_transform()

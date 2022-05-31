@@ -10,19 +10,24 @@ from transformers import DistilBertTokenizer
 import config as CFG
 from dataset import CLIPDataset, get_transform
 from clip import CLIPModel
-from utils import AvgMeter, get_lr
+from utils import AvgMeter, get_lr, preprocess_dataset
+import matplotlib.pyplot as plt
 
 
-def make_train_valid_dfs():
-    df = pd.read_csv(os.getcwd() + "/" + CFG.captions_path + "/captions.txt", sep=",")
-    max_id = len(df) + 1 if not CFG.debug else 1000
+def make_train_valid_test_dfs():
+    preprocess_dataset()
+    df = pd.read_csv(os.getcwd() + "/" + CFG.captions_path + "/captions.csv", sep=",")
+    max_id = len(df) if not CFG.debug else CFG.debug_sample_size
     image_ids = np.arange(0, max_id)
     np.random.seed(42)
-    valid_ids = np.random.choice(image_ids, size=int(0.2 * len(image_ids)), replace=False)
-    train_ids = [id_ for id_ in image_ids if id_ not in valid_ids]
+    test_ids = np.random.choice(image_ids, size=int(CFG.test_ratio * len(image_ids)), replace=False)
+    _ids = [id_ for id_ in image_ids if id_ not in test_ids]
+    train_ids = np.random.choice(_ids, size=int(CFG.train_valid_split * len(_ids)), replace=False)
+    valid_ids = [id_ for id_ in _ids if id_ not in train_ids]
+    test_df = df.iloc[test_ids].reset_index(drop=True)
     train_df = df.iloc[train_ids].reset_index(drop=True)
     valid_df = df.iloc[valid_ids].reset_index(drop=True)
-    return train_df, valid_df
+    return train_df, valid_df, test_df
 
 
 def build_loaders(df, tokenizer, mode="train"):
@@ -70,11 +75,15 @@ def valid_epoch(model, valid_loader):
 
 
 def main():
-    train_df, valid_df = make_train_valid_dfs()
+    train_df, valid_df, test_df = make_train_valid_test_dfs()
+
     tokenizer = DistilBertTokenizer.from_pretrained(CFG.text_tokenizer)
     train_loader = build_loaders(train_df, tokenizer, mode="train")
     valid_loader = build_loaders(valid_df, tokenizer, mode="valid")
-
+    os.makedirs(CFG.test_dataset_path, exist_ok=True)
+    test_df.to_csv(os.path.join(CFG.test_dataset_path, CFG.test_dataset_filename))
+    os.makedirs(CFG.valid_dataset_path, exist_ok=True)
+    valid_df.to_csv(os.path.join(CFG.valid_dataset_path, CFG.valid_dataset_filename))
     model = CLIPModel().to(CFG.device)
     optimizer = torch.optim.AdamW(
         model.parameters(), lr=CFG.lr, weight_decay=CFG.weight_decay
@@ -83,20 +92,31 @@ def main():
         optimizer, mode="min", patience=CFG.patience, factor=CFG.factor
     )
     step = "epoch"
-
+    valid_loss_history = []
+    train_loss_history = []
     best_loss = float('inf')
     for epoch in range(CFG.epochs):
         print(f"Epoch: {epoch + 1}")
         model.train()
         train_loss = train_epoch(model, train_loader, optimizer, lr_scheduler, step)
+        train_loss_history.append(train_loss.avg)
         model.eval()
         with torch.no_grad():
             valid_loss = valid_epoch(model, valid_loader)
+            valid_loss_history.append(valid_loss.avg)
 
         if valid_loss.avg < best_loss:
             best_loss = valid_loss.avg
             torch.save(model.state_dict(), "best.pt")
             print("Saved Best Model!")
+    epochs = range(CFG.epochs)
+    plt.plot(epochs, train_loss_history, 'g', label='Training loss')
+    plt.plot(epochs, valid_loss_history, 'b', label='validation loss')
+    plt.title('Training and Validation loss')
+    plt.xlabel('Epochs')
+    plt.ylabel('Loss')
+    plt.legend()
+    plt.show()
 
 
 if __name__ == "__main__":

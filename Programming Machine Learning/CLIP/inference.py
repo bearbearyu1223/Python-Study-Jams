@@ -1,33 +1,36 @@
+import os.path
+
 import cv2
 import torch
 import torch.nn.functional as F
 from tqdm import tqdm
+from math import sqrt
 from transformers import DistilBertTokenizer
 import matplotlib.pyplot as plt
-
+import pandas as pd
 import config as CFG
-from train import build_loaders, make_train_valid_dfs
+from train import build_loaders
 from clip import CLIPModel
 
 
-def get_image_embeddings(valid_df, model_path):
+def get_image_embeddings(test_df, model_path):
     tokenizer = DistilBertTokenizer.from_pretrained(CFG.text_tokenizer)
-    valid_loader = build_loaders(valid_df, tokenizer, mode="valid")
+    test_loader = build_loaders(test_df, tokenizer, mode="valid")
 
     model = CLIPModel().to(CFG.device)
     model.load_state_dict(torch.load(model_path, map_location=CFG.device))
     model.eval()
 
-    valid_image_embeddings = []
+    test_image_embeddings = []
     with torch.no_grad():
-        for batch in tqdm(valid_loader):
+        for batch in tqdm(test_loader):
             image_features = model.image_encoder(batch["image"].to(CFG.device))
             image_embeddings = model.image_projection(image_features)
-            valid_image_embeddings.append(image_embeddings)
-    return model, torch.cat(valid_image_embeddings)
+            test_image_embeddings.append(image_embeddings)
+    return model, torch.cat(test_image_embeddings)
 
 
-def find_matches(model, image_embeddings, query, image_filenames, n=9):
+def find_matches(model, image_embeddings, query, image_filenames, n=4):
     tokenizer = DistilBertTokenizer.from_pretrained(CFG.text_tokenizer)
     encoded_query = tokenizer([query])
     batch = {
@@ -47,7 +50,7 @@ def find_matches(model, image_embeddings, query, image_filenames, n=9):
     _, indices = torch.topk(dot_similarity.squeeze(0), n * 5)
     matches = [image_filenames[idx] for idx in indices[::5]]
 
-    _, axes = plt.subplots(3, 3, figsize=(10, 10))
+    _, axes = plt.subplots(int(sqrt(n)), int(sqrt(n)), figsize=(10, 10))
     for match, ax in zip(matches, axes.flatten()):
         image = cv2.imread(f"{CFG.image_path}/{match}")
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -58,8 +61,8 @@ def find_matches(model, image_embeddings, query, image_filenames, n=9):
 
 
 if __name__ == "__main__":
-    _, valid_df = make_train_valid_dfs()
-    model, image_embeddings = get_image_embeddings(valid_df, "best.pt")
+    test_df = pd.read_csv(os.path.join(CFG.test_dataset_path, CFG.test_dataset_filename))
+    model, image_embeddings = get_image_embeddings(test_df, "best.pt")
     find_matches(model, image_embeddings,
-                 query="picture of dogs",
-                 image_filenames=valid_df['image'].values, n=9)
+                 query="girls",
+                 image_filenames=test_df['image'].values, n=4)
